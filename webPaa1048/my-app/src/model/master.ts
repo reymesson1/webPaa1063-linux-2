@@ -20,5 +20,7 @@ export class Master {
     public generated ?: string,    
     public price ?: number,    
     public area ?: number,    
+    public make ?: string,    
+    public model ?: string,    
   ) { }
  }
