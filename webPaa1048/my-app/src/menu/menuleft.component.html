@@ -1,0 +1,7 @@
+<button mat-button [matMenuTriggerFor]="menu">{{navbarData.configuration}}</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/field" >{{navbarData.field}}</button>
+  <button mat-menu-item routerLink="/wordlist" >Word List</button>
+  <button mat-menu-item routerLink="/generator" >Generator</button>  
+  <button mat-menu-item routerLink="/itemgenerator" >Item Generator</button>  
+</mat-menu>        
