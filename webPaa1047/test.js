@@ -242,7 +242,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("c:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-14 at 4.08.25 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/WhatsApp Image 2018-11-14 at 4.08.25 PM (1).jpeg"); 
 
 }, 33000)
 setTimeout(async()=>{ 
@@ -250,7 +250,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("c:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-14 at 4.08.25 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/WhatsApp Image 2018-11-14 at 4.08.25 PM.jpeg"); 
 
 }, 37000)
 setTimeout(async()=>{ 
