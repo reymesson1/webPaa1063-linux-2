@@ -173,12 +173,12 @@ export class ItemGeneratorComponent {
       }
 
     for(var y=0,i=from;y<6;y++,i+=4000){      
-        generated += " setTimeout(async()=>{ \n\n \t " + complement[y] + " \n\n  }, " + i + ")\n";
+        generated += " setTimeout(async()=>{ \n\n \t " + complement[y] + " \n\n console.log("+ "'" + complement[y] + "'" +") \n\n  }, " + i + ")\n";
         from=i
     }
     
     for(var z=6,i=from;z<complement.length;z++,i+=1000){      
-        generated += " setTimeout(async()=>{ \n\n \t " + complement[z] + " \n\n  }, " + i + ")\n";
+        generated += " setTimeout(async()=>{ \n\n \t " + complement[z] + " \n\n console.log("+ "'" +complement[y]+ "'" +") \n\n  }, " + i + ")\n";
         from = i
     }
 
