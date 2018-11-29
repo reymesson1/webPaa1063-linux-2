@@ -1,19 +1,13 @@
 
-var mongoose = require('mongoose');
 
 
 
-const chrome = require('selenium-webdriver/chrome');
-const firefox = require('selenium-webdriver/firefox');
-const {Builder, By, Key, until} = require('selenium-webdriver');
+  var seleniumWebdriver = require('selenium-webdriver');
+  var chrome    = require('selenium-webdriver/chrome');
 
-const screen = {
-  width: 640,
-  height: 480
-};
+  var options   = new chrome.Options().headless();
 
-let driver = new Builder()
+  var driver = new seleniumWebdriver.Builder()
     .forBrowser('chrome')
-    .setChromeOptions(new chrome.Options().headless().windowSize(screen))
-    .setFirefoxOptions(new firefox.Options().headless().windowSize(screen))
+    .setChromeOptions(options)
     .build();
