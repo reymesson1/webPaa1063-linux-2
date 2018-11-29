@@ -7,5 +7,7 @@ var app = express();
 var By = webdriver.By;
 
 
+var options   = new chrome.Options();
+options.addArguments('--headless');
+var driver = new webdriver.Builder().forBrowser('chrome').withCapabilities(options.toCapabilities()).build();
 
-var driver = new webdriver.Builder().withCapabilities(webdriver.Capabilities.chrome().Options().headless()).build();
