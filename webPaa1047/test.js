@@ -242,7 +242,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM (1).jpeg"); 
 
 }, 33000)
 setTimeout(async()=>{ 
@@ -250,7 +250,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM.jpeg"); 
 
 }, 37000)
 setTimeout(async()=>{ 
@@ -340,7 +340,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 51000)
+}, 53000)
 setTimeout(async()=>{ 
 
 
@@ -348,7 +348,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
-}, 52000)
+}, 53000)
 setTimeout(async()=>{ 
 
 
@@ -754,7 +754,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.14.17 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.14.17 PM.jpeg"); 
 
 }, 118000)
 setTimeout(async()=>{ 
@@ -762,7 +762,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.14.18 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.14.18 PM (1).jpeg"); 
 
 }, 122000)
 setTimeout(async()=>{ 
@@ -876,7 +876,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
 
-}, 139000)
+}, 140000)
 setTimeout(async()=>{ 
 
 
@@ -1247,7 +1247,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.08.03 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.08.03 PM (1).jpeg"); 
 
 }, 208000)
 setTimeout(async()=>{ 
@@ -1255,7 +1255,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.08.03 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.08.03 PM.jpeg"); 
 
 }, 212000)
 setTimeout(async()=>{ 
@@ -1345,7 +1345,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 226000)
+}, 227000)
 setTimeout(async()=>{ 
 
 
@@ -1757,7 +1757,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.37.27 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.37.27 AM.jpeg"); 
 
 }, 288000)
 setTimeout(async()=>{ 
@@ -1765,7 +1765,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.37.28 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.37.28 AM.jpeg"); 
 
 }, 292000)
 setTimeout(async()=>{ 
@@ -2263,7 +2263,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.34.00 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.34.00 AM.jpeg"); 
 
 }, 368000)
 setTimeout(async()=>{ 
@@ -2271,7 +2271,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.33.59 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.33.59 AM.jpeg"); 
 
 }, 372000)
 setTimeout(async()=>{ 
@@ -2754,7 +2754,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM (1).jpeg"); 
 
 }, 448000)
 setTimeout(async()=>{ 
@@ -2762,7 +2762,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM.jpeg"); 
 
 }, 452000)
 setTimeout(async()=>{ 
@@ -2852,7 +2852,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 466000)
+}, 467000)
 setTimeout(async()=>{ 
 
 
@@ -3262,7 +3262,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM (1).jpeg"); 
 
 }, 528000)
 setTimeout(async()=>{ 
@@ -3270,7 +3270,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM.jpeg"); 
 
 }, 532000)
 setTimeout(async()=>{ 
@@ -3360,7 +3360,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 546000)
+}, 547000)
 setTimeout(async()=>{ 
 
 
@@ -3769,7 +3769,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.26.29 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.26.29 AM (1).jpeg"); 
 
 }, 608000)
 setTimeout(async()=>{ 
@@ -3777,7 +3777,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.26.30 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.26.30 AM.jpeg"); 
 
 }, 612000)
 setTimeout(async()=>{ 
@@ -3867,7 +3867,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 626000)
+}, 627000)
 setTimeout(async()=>{ 
 
 
@@ -4279,7 +4279,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-12 at 5.14.15 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.15 PM.jpeg"); 
 
 }, 688000)
 setTimeout(async()=>{ 
@@ -4287,7 +4287,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-12 at 5.14.41 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.41 PM.jpeg"); 
 
 }, 692000)
 setTimeout(async()=>{ 
@@ -4377,7 +4377,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 706000)
+}, 707000)
 setTimeout(async()=>{ 
 
 
@@ -4789,7 +4789,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-19 at 6.12.28 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 6.12.28 PM (1).jpeg"); 
 
 }, 768000)
 setTimeout(async()=>{ 
@@ -4797,7 +4797,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-19 at 6.12.28 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 6.12.28 PM.jpeg"); 
 
 }, 772000)
 setTimeout(async()=>{ 
@@ -4887,7 +4887,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 786000)
+}, 787000)
 setTimeout(async()=>{ 
 
 
@@ -5296,7 +5296,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-19 at 5.59.29 PM (1).jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 5.59.29 PM (1).jpeg"); 
 
 }, 848000)
 setTimeout(async()=>{ 
@@ -5304,7 +5304,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-19 at 5.59.29 PM.jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 5.59.29 PM.jpeg"); 
 
 }, 852000)
 setTimeout(async()=>{ 
@@ -5788,7 +5788,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-12 at 10.11.45 AM (1).jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-12 at 10.11.45 AM (1).jpeg"); 
 
 }, 928000)
 setTimeout(async()=>{ 
@@ -5796,7 +5796,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-12 at 10.11.45 AM.jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-12 at 10.11.45 AM.jpeg"); 
 
 }, 932000)
 setTimeout(async()=>{ 
@@ -5886,7 +5886,7 @@ setTimeout(async()=>{
 
      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 946000)
+}, 947000)
 setTimeout(async()=>{ 
 
 
@@ -6299,7 +6299,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-30 at 11.25.27 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-30 at 11.25.27 AM (1).jpeg"); 
 
 }, 1008000)
 setTimeout(async()=>{ 
@@ -6307,7 +6307,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-30 at 11.25.27 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-30 at 11.25.27 AM.jpeg"); 
 
 }, 1012000)
 setTimeout(async()=>{ 
@@ -6397,7 +6397,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 1026000)
+}, 1027000)
 setTimeout(async()=>{ 
 
 
@@ -6806,7 +6806,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.47.10 AM.jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.47.10 AM.jpeg"); 
 
 }, 1088000)
 setTimeout(async()=>{ 
@@ -6814,7 +6814,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.47.11 AM.jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.47.11 AM.jpeg"); 
 
 }, 1092000)
 setTimeout(async()=>{ 
@@ -7300,7 +7300,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.40.09 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.40.09 AM.jpeg"); 
 
 }, 1168000)
 setTimeout(async()=>{ 
@@ -7308,7 +7308,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.40.08 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.40.08 AM.jpeg"); 
 
 }, 1172000)
 setTimeout(async()=>{ 
@@ -7792,7 +7792,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-20 at 9.48.41 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 9.48.41 AM.jpeg"); 
 
 }, 1248000)
 setTimeout(async()=>{ 
@@ -7800,7 +7800,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-20 at 9.48.46 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 9.48.46 AM.jpeg"); 
 
 }, 1252000)
 setTimeout(async()=>{ 
@@ -8284,7 +8284,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-06 at 10.09.42 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-06 at 10.09.42 AM.jpeg"); 
 
 }, 1328000)
 setTimeout(async()=>{ 
@@ -8292,7 +8292,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-12-06 at 10.09.45 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-06 at 10.09.45 AM.jpeg"); 
 
 }, 1332000)
 setTimeout(async()=>{ 
@@ -8382,7 +8382,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 1346000)
+}, 1347000)
 setTimeout(async()=>{ 
 
 
@@ -8794,7 +8794,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-12 at 5.14.15 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.15 PM.jpeg"); 
 
 }, 1408000)
 setTimeout(async()=>{ 
@@ -8802,7 +8802,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-12 at 5.14.41 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.41 PM.jpeg"); 
 
 }, 1412000)
 setTimeout(async()=>{ 
@@ -8892,7 +8892,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 1426000)
+}, 1427000)
 setTimeout(async()=>{ 
 
 
@@ -9302,7 +9302,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-08 at 11.09.29 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-08 at 11.09.29 AM.jpeg"); 
 
 }, 1508000)
 setTimeout(async()=>{ 
@@ -9310,7 +9310,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-11-08 at 11.09.28 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-08 at 11.09.28 AM.jpeg"); 
 
 }, 1512000)
 setTimeout(async()=>{ 
@@ -9794,7 +9794,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-24 at 12.46.00 PM (1).jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-24 at 12.46.00 PM (1).jpeg"); 
 
 }, 1588000)
 setTimeout(async()=>{ 
@@ -9802,7 +9802,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/Rey Messon/Desktop/anuncio/WhatsApp Image 2018-10-24 at 12.46.00 PM.jpeg"); 
+     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-24 at 12.46.00 PM.jpeg"); 
 
 }, 1592000)
 setTimeout(async()=>{ 
@@ -9892,7 +9892,7 @@ setTimeout(async()=>{
 
      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
 
-}, 1606000)
+}, 1607000)
 setTimeout(async()=>{ 
 
 
