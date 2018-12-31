@@ -10302,7 +10302,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-28 at 2.43.44 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-28 at 2.43.44 PM.jpeg"); 
 
 }, 1668000)
 setTimeout(async()=>{ 
@@ -10310,7 +10310,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-28 at 2.43.45 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-28 at 2.43.45 PM.jpeg"); 
 
 }, 1672000)
 setTimeout(async()=>{ 
@@ -10797,7 +10797,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM (1).jpeg"); 
 
 }, 1748000)
 setTimeout(async()=>{ 
@@ -10805,7 +10805,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM.jpeg"); 
 
 }, 1752000)
 setTimeout(async()=>{ 
@@ -11304,7 +11304,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.40.57 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.40.57 AM.jpeg"); 
 
 }, 1828000)
 setTimeout(async()=>{ 
@@ -11312,7 +11312,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.40.58 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.40.58 AM.jpeg"); 
 
 }, 1832000)
 setTimeout(async()=>{ 
