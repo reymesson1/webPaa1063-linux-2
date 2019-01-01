@@ -49,7 +49,7 @@ app.post('/resetnowschedules', scheduleController.resetnowschedule)
 app.post('/runscript',async(req,res)=>{
   Master.find({},(err,master)=>{
     master.map(m=>{      
-      m.header = m.header + " " + req.body.title
+      m.header = m.fullname + " " + req.body.title
       m.save(function(err,mast){
         console.log('saved');
       })
