@@ -284,7 +284,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM (1).jpeg"); 
 
 }, 33000)
 setTimeout(async()=>{ 
@@ -292,7 +292,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM.jpeg"); 
 
 }, 37000)
 setTimeout(async()=>{ 
@@ -356,7 +356,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.id("category_1")).sendKeys("c"); 
 
 }, 48000)
 setTimeout(async()=>{ 
@@ -380,7 +380,23 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.id("metadata.vehicleType")).click(); 
+
+}, 51000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+
+}, 52000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 53000)
 setTimeout(async()=>{ 
@@ -388,23 +404,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 53000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 53000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
 
 }, 54000)
 setTimeout(async()=>{ 
@@ -412,7 +412,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
 }, 55000)
 setTimeout(async()=>{ 
@@ -420,7 +420,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.id("metadata.fuel")).click(); 
 
 }, 56000)
 setTimeout(async()=>{ 
@@ -428,7 +428,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
 }, 57000)
 setTimeout(async()=>{ 
@@ -436,7 +436,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
 }, 58000)
 setTimeout(async()=>{ 
@@ -444,7 +444,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 59000)
 setTimeout(async()=>{ 
@@ -452,7 +452,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.transmission")).click(); 
 
 }, 60000)
 setTimeout(async()=>{ 
@@ -460,7 +460,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
 }, 61000)
 setTimeout(async()=>{ 
@@ -476,7 +476,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
 
 }, 63000)
 setTimeout(async()=>{ 
@@ -484,7 +484,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
 
 }, 64000)
 setTimeout(async()=>{ 
@@ -492,7 +492,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 65000)
 setTimeout(async()=>{ 
@@ -500,7 +500,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 66000)
 setTimeout(async()=>{ 
@@ -508,7 +508,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 67000)
 setTimeout(async()=>{ 
@@ -524,7 +524,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
 
 }, 69000)
 setTimeout(async()=>{ 
@@ -532,7 +532,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 70000)
 setTimeout(async()=>{ 
@@ -540,7 +540,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 71000)
 setTimeout(async()=>{ 
@@ -556,7 +556,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 73000)
 setTimeout(async()=>{ 
@@ -564,7 +564,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
 
 }, 74000)
 setTimeout(async()=>{ 
@@ -572,7 +572,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
 
 }, 75000)
 setTimeout(async()=>{ 
@@ -596,7 +596,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
 
 }, 78000)
 setTimeout(async()=>{ 
@@ -612,7 +612,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 80000)
 setTimeout(async()=>{ 
@@ -620,7 +620,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 81000)
 setTimeout(async()=>{ 
@@ -628,7 +628,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("price")).sendKeys(21000); 
 
 }, 82000)
 setTimeout(async()=>{ 
@@ -636,7 +636,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 83000)
 setTimeout(async()=>{ 
@@ -644,7 +644,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("price")).sendKeys(21000); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 84000)
 setTimeout(async()=>{ 
@@ -652,7 +652,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 85000)
 setTimeout(async()=>{ 
@@ -708,7 +708,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 92000)
 setTimeout(async()=>{ 
@@ -716,7 +716,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 93000)
 setTimeout(async()=>{ 
@@ -724,7 +724,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 94000)
 setTimeout(async()=>{ 
@@ -732,7 +732,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_1")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 95000)
 setTimeout(async()=>{ 
@@ -740,31 +740,11 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 96000)
-setTimeout(async()=>{ 
 
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 97000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 98000)
-
-
-/**************************************************************************************
- * 
- * 
- * 
+/******************************************************************************
  * 
  * 
  * 
@@ -782,7 +762,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 110000)
+}, 100000)
 setTimeout(async()=>{ 
 
 
@@ -790,23 +770,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 114000)
+}, 104000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.14.17 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.14.17 PM.jpeg"); 
 
-}, 118000)
+}, 108000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.14.18 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.14.18 PM (1).jpeg"); 
 
-}, 122000)
+}, 112000)
 setTimeout(async()=>{ 
 
 
@@ -814,7 +794,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 126000)
+}, 116000)
 setTimeout(async()=>{ 
 
 
@@ -822,7 +802,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster2.header); 
 
-}, 127000)
+}, 117000)
 setTimeout(async()=>{ 
 
 
@@ -830,7 +810,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster2.description); 
 
-}, 128000)
+}, 118000)
 setTimeout(async()=>{ 
 
 
@@ -838,7 +818,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 129000)
+}, 119000)
 setTimeout(async()=>{ 
 
 
@@ -846,7 +826,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
-}, 130000)
+}, 120000)
 setTimeout(async()=>{ 
 
 
@@ -854,7 +834,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 131000)
+}, 121000)
 setTimeout(async()=>{ 
 
 
@@ -862,7 +842,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).click(); 
 
-}, 132000)
+}, 122000)
 setTimeout(async()=>{ 
 
 
@@ -870,7 +850,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).sendKeys("c"); 
 
-}, 133000)
+}, 123000)
 setTimeout(async()=>{ 
 
 
@@ -878,7 +858,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 134000)
+}, 124000)
 setTimeout(async()=>{ 
 
 
@@ -886,7 +866,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 135000)
+}, 125000)
 setTimeout(async()=>{ 
 
 
@@ -894,7 +874,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.vehicleType")).click(); 
 
-}, 136000)
+}, 126000)
 setTimeout(async()=>{ 
 
 
@@ -902,7 +882,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
 
-}, 137000)
+}, 127000)
 setTimeout(async()=>{ 
 
 
@@ -910,7 +890,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 138000)
+}, 128000)
 setTimeout(async()=>{ 
 
 
@@ -918,7 +898,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
 
-}, 140000)
+}, 129000)
 setTimeout(async()=>{ 
 
 
@@ -926,7 +906,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
-}, 140000)
+}, 130000)
 setTimeout(async()=>{ 
 
 
@@ -934,7 +914,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).click(); 
 
-}, 141000)
+}, 131000)
 setTimeout(async()=>{ 
 
 
@@ -942,7 +922,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 142000)
+}, 132000)
 setTimeout(async()=>{ 
 
 
@@ -950,7 +930,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 143000)
+}, 133000)
 setTimeout(async()=>{ 
 
 
@@ -958,7 +938,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
-}, 144000)
+}, 134000)
 setTimeout(async()=>{ 
 
 
@@ -966,13 +946,93 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).click(); 
 
-}, 145000)
+}, 135000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 136000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 137000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 138000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 139000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 140000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).click(); 
+
+}, 141000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+
+}, 142000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 143000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 144000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 145000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 146000)
 setTimeout(async()=>{ 
@@ -988,7 +1048,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 148000)
 setTimeout(async()=>{ 
@@ -996,7 +1056,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
 
 }, 149000)
 setTimeout(async()=>{ 
@@ -1004,7 +1064,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
 
 }, 150000)
 setTimeout(async()=>{ 
@@ -1012,7 +1072,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 151000)
 setTimeout(async()=>{ 
@@ -1020,7 +1080,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 152000)
 setTimeout(async()=>{ 
@@ -1028,7 +1088,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
 
 }, 153000)
 setTimeout(async()=>{ 
@@ -1036,7 +1096,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 154000)
 setTimeout(async()=>{ 
@@ -1044,7 +1104,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 155000)
 setTimeout(async()=>{ 
@@ -1052,7 +1112,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 156000)
 setTimeout(async()=>{ 
@@ -1060,7 +1120,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("price")).sendKeys(51000); 
 
 }, 157000)
 setTimeout(async()=>{ 
@@ -1068,7 +1128,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 158000)
 setTimeout(async()=>{ 
@@ -1076,7 +1136,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 159000)
 setTimeout(async()=>{ 
@@ -1084,7 +1144,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 160000)
 setTimeout(async()=>{ 
@@ -1092,7 +1152,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 161000)
 setTimeout(async()=>{ 
@@ -1100,7 +1160,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 162000)
 setTimeout(async()=>{ 
@@ -1108,7 +1168,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 163000)
 setTimeout(async()=>{ 
@@ -1116,7 +1176,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 164000)
 setTimeout(async()=>{ 
@@ -1124,7 +1184,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 165000)
 setTimeout(async()=>{ 
@@ -1132,7 +1192,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 166000)
 setTimeout(async()=>{ 
@@ -1140,7 +1200,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("price")).sendKeys(51000); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 167000)
 setTimeout(async()=>{ 
@@ -1148,7 +1208,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).click(); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 168000)
 setTimeout(async()=>{ 
@@ -1156,7 +1216,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 169000)
 setTimeout(async()=>{ 
@@ -1164,7 +1224,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 170000)
 setTimeout(async()=>{ 
@@ -1172,92 +1232,12 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 171000)
-setTimeout(async()=>{ 
 
 
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 172000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 173000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 174000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 175000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 176000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 177000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 178000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 179000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 180000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 181000)
-
-
-/************************************************************************************
+/**********************************************************************************
  * 
  * 
  * 
@@ -1275,7 +1255,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 200000)
+}, 180000)
 setTimeout(async()=>{ 
 
 
@@ -1283,23 +1263,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 204000)
+}, 184000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.08.03 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.37.27 AM.jpeg"); 
 
-}, 208000)
+}, 188000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.08.03 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.37.28 AM.jpeg"); 
 
-}, 212000)
+}, 192000)
 setTimeout(async()=>{ 
 
 
@@ -1307,7 +1287,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 216000)
+}, 196000)
 setTimeout(async()=>{ 
 
 
@@ -1315,7 +1295,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster3.header); 
 
-}, 217000)
+}, 197000)
 setTimeout(async()=>{ 
 
 
@@ -1323,7 +1303,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster3.description); 
 
-}, 218000)
+}, 198000)
 setTimeout(async()=>{ 
 
 
@@ -1331,13 +1311,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 219000)
+}, 199000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 200000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 201000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 202000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 203000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 204000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 205000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 206000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 207000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 208000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 209000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 210000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 211000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 212000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 213000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 214000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 215000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 216000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 217000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 218000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 219000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 220000)
 setTimeout(async()=>{ 
@@ -1353,7 +1493,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 222000)
 setTimeout(async()=>{ 
@@ -1361,7 +1501,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 223000)
 setTimeout(async()=>{ 
@@ -1369,7 +1509,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 224000)
 setTimeout(async()=>{ 
@@ -1377,7 +1517,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 225000)
 setTimeout(async()=>{ 
@@ -1385,7 +1525,15 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 226000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 227000)
 setTimeout(async()=>{ 
@@ -1393,15 +1541,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 227000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 228000)
 setTimeout(async()=>{ 
@@ -1409,7 +1549,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 229000)
 setTimeout(async()=>{ 
@@ -1417,7 +1557,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 230000)
 setTimeout(async()=>{ 
@@ -1425,7 +1565,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 231000)
 setTimeout(async()=>{ 
@@ -1433,7 +1573,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 232000)
 setTimeout(async()=>{ 
@@ -1441,7 +1581,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 233000)
 setTimeout(async()=>{ 
@@ -1457,7 +1597,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 235000)
 setTimeout(async()=>{ 
@@ -1465,7 +1605,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 236000)
 setTimeout(async()=>{ 
@@ -1481,7 +1621,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 238000)
 setTimeout(async()=>{ 
@@ -1489,7 +1629,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(84500); 
 
 }, 239000)
 setTimeout(async()=>{ 
@@ -1497,7 +1637,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 240000)
 setTimeout(async()=>{ 
@@ -1505,7 +1645,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 241000)
 setTimeout(async()=>{ 
@@ -1513,7 +1653,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 242000)
 setTimeout(async()=>{ 
@@ -1521,7 +1661,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 243000)
 setTimeout(async()=>{ 
@@ -1529,7 +1669,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 244000)
 setTimeout(async()=>{ 
@@ -1537,7 +1677,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 245000)
 setTimeout(async()=>{ 
@@ -1545,7 +1685,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 246000)
 setTimeout(async()=>{ 
@@ -1553,7 +1693,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 247000)
 setTimeout(async()=>{ 
@@ -1561,7 +1701,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 248000)
 setTimeout(async()=>{ 
@@ -1569,7 +1709,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 249000)
 setTimeout(async()=>{ 
@@ -1577,7 +1717,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 250000)
 setTimeout(async()=>{ 
@@ -1585,7 +1725,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 251000)
 setTimeout(async()=>{ 
@@ -1593,7 +1733,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 252000)
 setTimeout(async()=>{ 
@@ -1601,172 +1741,13 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 253000)
-setTimeout(async()=>{ 
 
 
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 254000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 255000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 256000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 257000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 258000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(71000); 
-
-}, 259000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 260000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 261000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 262000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 263000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 264000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 265000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 266000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 267000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 268000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 269000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 270000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 271000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 272000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 273000)
-
-
-/************************************************************************************
+/****************************************************************************
+ * 
  * 
  * 
  * 
@@ -1785,7 +1766,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 280000)
+}, 260000)
 setTimeout(async()=>{ 
 
 
@@ -1793,23 +1774,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 284000)
+}, 264000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.37.27 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM (1).jpeg"); 
 
-}, 288000)
+}, 268000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.37.28 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM.jpeg"); 
 
-}, 292000)
+}, 272000)
 setTimeout(async()=>{ 
 
 
@@ -1817,7 +1798,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 296000)
+}, 276000)
 setTimeout(async()=>{ 
 
 
@@ -1825,7 +1806,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster4.header); 
 
-}, 297000)
+}, 277000)
 setTimeout(async()=>{ 
 
 
@@ -1833,7 +1814,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster4.description); 
 
-}, 298000)
+}, 278000)
 setTimeout(async()=>{ 
 
 
@@ -1841,13 +1822,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 299000)
+}, 279000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 280000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 281000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 282000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 283000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 284000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 285000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 286000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 287000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 288000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 289000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 290000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 291000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 292000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 293000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 294000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 295000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 296000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 297000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 298000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 299000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 300000)
 setTimeout(async()=>{ 
@@ -1863,7 +2004,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 302000)
 setTimeout(async()=>{ 
@@ -1871,7 +2012,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 303000)
 setTimeout(async()=>{ 
@@ -1879,7 +2020,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 304000)
 setTimeout(async()=>{ 
@@ -1887,7 +2028,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 305000)
 setTimeout(async()=>{ 
@@ -1895,7 +2036,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 306000)
 setTimeout(async()=>{ 
@@ -1903,7 +2044,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 307000)
 setTimeout(async()=>{ 
@@ -1911,7 +2052,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 308000)
 setTimeout(async()=>{ 
@@ -1919,7 +2060,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 309000)
 setTimeout(async()=>{ 
@@ -1927,7 +2068,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 310000)
 setTimeout(async()=>{ 
@@ -1935,7 +2076,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 311000)
 setTimeout(async()=>{ 
@@ -1943,7 +2084,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 312000)
 setTimeout(async()=>{ 
@@ -1951,7 +2092,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 313000)
 setTimeout(async()=>{ 
@@ -1967,7 +2108,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 315000)
 setTimeout(async()=>{ 
@@ -1975,7 +2116,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 316000)
 setTimeout(async()=>{ 
@@ -1991,7 +2132,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 318000)
 setTimeout(async()=>{ 
@@ -1999,7 +2140,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(81500); 
 
 }, 319000)
 setTimeout(async()=>{ 
@@ -2007,7 +2148,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 320000)
 setTimeout(async()=>{ 
@@ -2015,7 +2156,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 321000)
 setTimeout(async()=>{ 
@@ -2023,7 +2164,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 322000)
 setTimeout(async()=>{ 
@@ -2031,7 +2172,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 323000)
 setTimeout(async()=>{ 
@@ -2039,7 +2180,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 324000)
 setTimeout(async()=>{ 
@@ -2047,7 +2188,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 325000)
 setTimeout(async()=>{ 
@@ -2055,7 +2196,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 326000)
 setTimeout(async()=>{ 
@@ -2063,7 +2204,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 327000)
 setTimeout(async()=>{ 
@@ -2071,7 +2212,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 328000)
 setTimeout(async()=>{ 
@@ -2079,7 +2220,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 329000)
 setTimeout(async()=>{ 
@@ -2087,7 +2228,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 330000)
 setTimeout(async()=>{ 
@@ -2095,7 +2236,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 331000)
 setTimeout(async()=>{ 
@@ -2103,7 +2244,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 332000)
 setTimeout(async()=>{ 
@@ -2111,63 +2252,27 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 333000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 334000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 335000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 336000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 337000)
-setTimeout(async()=>{ 
-
-
-
-
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 338000)
+}, 333000)
+
+/******************************************************************
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("price")).sendKeys(95000); 
-
-}, 339000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
+      return driver.get("https://www.corotos.com.do/create") 
 
 }, 340000)
 setTimeout(async()=>{ 
@@ -2175,31 +2280,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 341000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 342000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 343000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
 }, 344000)
 setTimeout(async()=>{ 
@@ -2207,31 +2288,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 345000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 346000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 347000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM (1).jpeg"); 
 
 }, 348000)
 setTimeout(async()=>{ 
@@ -2239,31 +2296,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 349000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 350000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 351000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM.jpeg"); 
 
 }, 352000)
 setTimeout(async()=>{ 
@@ -2273,57 +2306,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 353000)
-
-/************************************************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 360000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 364000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.34.00 AM.jpeg"); 
-
-}, 368000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.33.59 AM.jpeg"); 
-
-}, 372000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 376000)
+}, 356000)
 setTimeout(async()=>{ 
 
 
@@ -2331,7 +2314,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster5.header); 
 
-}, 377000)
+}, 357000)
 setTimeout(async()=>{ 
 
 
@@ -2339,7 +2322,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster5.description); 
 
-}, 378000)
+}, 358000)
 setTimeout(async()=>{ 
 
 
@@ -2347,13 +2330,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 379000)
+}, 359000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 360000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 361000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 362000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 363000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 364000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 365000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 366000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 367000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 368000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 369000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 370000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 371000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 372000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 373000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 374000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 375000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 376000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 377000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 378000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 379000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 380000)
 setTimeout(async()=>{ 
@@ -2369,7 +2512,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 382000)
 setTimeout(async()=>{ 
@@ -2377,7 +2520,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("c"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 383000)
 setTimeout(async()=>{ 
@@ -2385,7 +2528,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 384000)
 setTimeout(async()=>{ 
@@ -2393,7 +2536,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 385000)
 setTimeout(async()=>{ 
@@ -2401,7 +2544,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.vehicleType")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 386000)
 setTimeout(async()=>{ 
@@ -2409,7 +2552,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 387000)
 setTimeout(async()=>{ 
@@ -2425,7 +2568,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 389000)
 setTimeout(async()=>{ 
@@ -2433,7 +2576,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 390000)
 setTimeout(async()=>{ 
@@ -2441,7 +2584,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 391000)
 setTimeout(async()=>{ 
@@ -2449,7 +2592,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 392000)
 setTimeout(async()=>{ 
@@ -2457,7 +2600,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 393000)
 setTimeout(async()=>{ 
@@ -2465,7 +2608,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 394000)
 setTimeout(async()=>{ 
@@ -2473,7 +2616,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 395000)
 setTimeout(async()=>{ 
@@ -2481,7 +2624,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 396000)
 setTimeout(async()=>{ 
@@ -2497,7 +2640,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 398000)
 setTimeout(async()=>{ 
@@ -2505,7 +2648,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("price")).sendKeys(68000); 
 
 }, 399000)
 setTimeout(async()=>{ 
@@ -2513,7 +2656,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 400000)
 setTimeout(async()=>{ 
@@ -2521,7 +2664,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 401000)
 setTimeout(async()=>{ 
@@ -2529,7 +2672,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 402000)
 setTimeout(async()=>{ 
@@ -2537,7 +2680,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 403000)
 setTimeout(async()=>{ 
@@ -2545,7 +2688,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 404000)
 setTimeout(async()=>{ 
@@ -2553,7 +2696,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 405000)
 setTimeout(async()=>{ 
@@ -2561,7 +2704,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 406000)
 setTimeout(async()=>{ 
@@ -2569,7 +2712,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 407000)
 setTimeout(async()=>{ 
@@ -2577,7 +2720,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 408000)
 setTimeout(async()=>{ 
@@ -2585,7 +2728,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 409000)
 setTimeout(async()=>{ 
@@ -2593,7 +2736,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 410000)
 setTimeout(async()=>{ 
@@ -2601,7 +2744,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 411000)
 setTimeout(async()=>{ 
@@ -2609,7 +2752,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 412000)
 setTimeout(async()=>{ 
@@ -2617,155 +2760,12 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 413000)
-setTimeout(async()=>{ 
 
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 414000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 415000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 416000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(36500); 
-
-}, 417000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 418000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 419000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 420000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 421000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 422000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 423000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 424000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 425000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 426000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 427000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 428000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 429000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 430000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 431000)
-
-/**********************************************************************************
+/**********************************************************************
+ * 
  * 
  * 
  * 
@@ -2782,7 +2782,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 440000)
+}, 420000)
 setTimeout(async()=>{ 
 
 
@@ -2790,23 +2790,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 444000)
+}, 424000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.26.29 AM (1).jpeg"); 
 
-}, 448000)
+}, 428000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.26.30 AM.jpeg"); 
 
-}, 452000)
+}, 432000)
 setTimeout(async()=>{ 
 
 
@@ -2814,7 +2814,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 456000)
+}, 436000)
 setTimeout(async()=>{ 
 
 
@@ -2822,7 +2822,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster6.header); 
 
-}, 457000)
+}, 437000)
 setTimeout(async()=>{ 
 
 
@@ -2830,7 +2830,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster6.description); 
 
-}, 458000)
+}, 438000)
 setTimeout(async()=>{ 
 
 
@@ -2838,13 +2838,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 459000)
+}, 439000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 440000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 441000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 442000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 443000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 444000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 445000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 446000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 447000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 448000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 449000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 450000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 451000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 452000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 453000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 454000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 455000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 456000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 457000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 458000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 459000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 460000)
 setTimeout(async()=>{ 
@@ -2860,7 +3020,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 462000)
 setTimeout(async()=>{ 
@@ -2868,7 +3028,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 463000)
 setTimeout(async()=>{ 
@@ -2876,7 +3036,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 464000)
 setTimeout(async()=>{ 
@@ -2884,7 +3044,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 465000)
 setTimeout(async()=>{ 
@@ -2892,7 +3052,15 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 466000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 467000)
 setTimeout(async()=>{ 
@@ -2900,15 +3068,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 467000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 468000)
 setTimeout(async()=>{ 
@@ -2916,7 +3076,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 469000)
 setTimeout(async()=>{ 
@@ -2924,7 +3084,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 470000)
 setTimeout(async()=>{ 
@@ -2932,7 +3092,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 471000)
 setTimeout(async()=>{ 
@@ -2940,7 +3100,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 472000)
 setTimeout(async()=>{ 
@@ -2948,7 +3108,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 473000)
 setTimeout(async()=>{ 
@@ -2964,7 +3124,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 475000)
 setTimeout(async()=>{ 
@@ -2972,7 +3132,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 476000)
 setTimeout(async()=>{ 
@@ -2988,7 +3148,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 478000)
 setTimeout(async()=>{ 
@@ -2996,7 +3156,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(2900); 
 
 }, 479000)
 setTimeout(async()=>{ 
@@ -3004,7 +3164,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 480000)
 setTimeout(async()=>{ 
@@ -3012,7 +3172,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 481000)
 setTimeout(async()=>{ 
@@ -3020,7 +3180,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 482000)
 setTimeout(async()=>{ 
@@ -3028,7 +3188,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 483000)
 setTimeout(async()=>{ 
@@ -3036,7 +3196,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 484000)
 setTimeout(async()=>{ 
@@ -3044,7 +3204,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 485000)
 setTimeout(async()=>{ 
@@ -3052,7 +3212,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 486000)
 setTimeout(async()=>{ 
@@ -3060,7 +3220,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 487000)
 setTimeout(async()=>{ 
@@ -3068,7 +3228,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 488000)
 setTimeout(async()=>{ 
@@ -3076,7 +3236,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 489000)
 setTimeout(async()=>{ 
@@ -3084,7 +3244,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 490000)
 setTimeout(async()=>{ 
@@ -3092,7 +3252,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 491000)
 setTimeout(async()=>{ 
@@ -3100,7 +3260,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 492000)
 setTimeout(async()=>{ 
@@ -3108,173 +3268,11 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 493000)
-setTimeout(async()=>{ 
 
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 494000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 495000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 496000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 497000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 498000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(81000); 
-
-}, 499000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 500000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 501000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 502000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 503000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 504000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 505000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 506000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 507000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 508000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 509000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 510000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 511000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 512000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 513000)
-
-
-/***********************************************************************************
- * 
+/********************************************************************
  * 
  * 
  * 
@@ -3290,7 +3288,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 520000)
+}, 500000)
 setTimeout(async()=>{ 
 
 
@@ -3298,23 +3296,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 524000)
+}, 504000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 9.48.41 AM.jpeg"); 
 
-}, 528000)
+}, 508000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 9.48.46 AM.jpeg"); 
 
-}, 532000)
+}, 512000)
 setTimeout(async()=>{ 
 
 
@@ -3322,7 +3320,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 536000)
+}, 516000)
 setTimeout(async()=>{ 
 
 
@@ -3330,7 +3328,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster7.header); 
 
-}, 537000)
+}, 517000)
 setTimeout(async()=>{ 
 
 
@@ -3338,7 +3336,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster7.description); 
 
-}, 538000)
+}, 518000)
 setTimeout(async()=>{ 
 
 
@@ -3346,7 +3344,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 539000)
+}, 519000)
 setTimeout(async()=>{ 
 
 
@@ -3354,7 +3352,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
-}, 540000)
+}, 520000)
 setTimeout(async()=>{ 
 
 
@@ -3362,7 +3360,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 541000)
+}, 521000)
 setTimeout(async()=>{ 
 
 
@@ -3370,15 +3368,15 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).click(); 
 
-}, 542000)
+}, 522000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.id("category_1")).sendKeys("c"); 
 
-}, 543000)
+}, 523000)
 setTimeout(async()=>{ 
 
 
@@ -3386,7 +3384,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 544000)
+}, 524000)
 setTimeout(async()=>{ 
 
 
@@ -3394,15 +3392,39 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 545000)
+}, 525000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.id("metadata.vehicleType")).click(); 
 
-}, 547000)
+}, 526000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+
+}, 527000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 528000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+
+}, 529000)
 setTimeout(async()=>{ 
 
 
@@ -3410,7 +3432,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
-}, 547000)
+}, 530000)
 setTimeout(async()=>{ 
 
 
@@ -3418,7 +3440,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).click(); 
 
-}, 548000)
+}, 531000)
 setTimeout(async()=>{ 
 
 
@@ -3426,7 +3448,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 549000)
+}, 532000)
 setTimeout(async()=>{ 
 
 
@@ -3434,7 +3456,15 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 550000)
+}, 533000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+
+}, 534000)
 setTimeout(async()=>{ 
 
 
@@ -3442,7 +3472,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).click(); 
 
-}, 551000)
+}, 535000)
 setTimeout(async()=>{ 
 
 
@@ -3450,13 +3480,141 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
-}, 552000)
+}, 536000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.tagName("body")).click(); 
+
+}, 537000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 538000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 539000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 540000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).click(); 
+
+}, 541000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+
+}, 542000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 543000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 544000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 545000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 546000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 547000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).click(); 
+
+}, 548000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 549000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 550000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 551000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).click(); 
+
+}, 552000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
 
 }, 553000)
 setTimeout(async()=>{ 
@@ -3472,7 +3630,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 555000)
 setTimeout(async()=>{ 
@@ -3480,7 +3638,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 556000)
 setTimeout(async()=>{ 
@@ -3488,7 +3646,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("price")).sendKeys(49000); 
 
 }, 557000)
 setTimeout(async()=>{ 
@@ -3496,7 +3654,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 558000)
 setTimeout(async()=>{ 
@@ -3504,7 +3662,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 559000)
 setTimeout(async()=>{ 
@@ -3512,7 +3670,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 560000)
 setTimeout(async()=>{ 
@@ -3520,7 +3678,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 561000)
 setTimeout(async()=>{ 
@@ -3528,7 +3686,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 562000)
 setTimeout(async()=>{ 
@@ -3536,7 +3694,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 563000)
 setTimeout(async()=>{ 
@@ -3544,7 +3702,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 564000)
 setTimeout(async()=>{ 
@@ -3552,7 +3710,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 565000)
 setTimeout(async()=>{ 
@@ -3560,7 +3718,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 566000)
 setTimeout(async()=>{ 
@@ -3576,7 +3734,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 568000)
 setTimeout(async()=>{ 
@@ -3584,7 +3742,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 569000)
 setTimeout(async()=>{ 
@@ -3592,7 +3750,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 570000)
 setTimeout(async()=>{ 
@@ -3600,187 +3758,12 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 571000)
-setTimeout(async()=>{ 
 
 
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 572000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 573000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 574000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 575000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 576000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 577000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 578000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(69000); 
-
-}, 579000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 580000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 581000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 582000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 583000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 584000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 585000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 586000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 587000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 588000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 589000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 590000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 591000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 592000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 593000)
-
-/*****************************************************************************
+/****************************************************************************
  * 
  * 
  * 
@@ -3797,7 +3780,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 600000)
+}, 580000)
 setTimeout(async()=>{ 
 
 
@@ -3805,23 +3788,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 604000)
+}, 584000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.26.29 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.47.10 AM.jpeg"); 
 
-}, 608000)
+}, 588000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.26.30 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.47.11 AM.jpeg"); 
 
-}, 612000)
+}, 592000)
 setTimeout(async()=>{ 
 
 
@@ -3829,7 +3812,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 616000)
+}, 596000)
 setTimeout(async()=>{ 
 
 
@@ -3837,7 +3820,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster8.header); 
 
-}, 617000)
+}, 597000)
 setTimeout(async()=>{ 
 
 
@@ -3845,7 +3828,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster8.description); 
 
-}, 618000)
+}, 598000)
 setTimeout(async()=>{ 
 
 
@@ -3853,7 +3836,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 619000)
+}, 599000)
 setTimeout(async()=>{ 
 
 
@@ -3861,7 +3844,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
-}, 620000)
+}, 600000)
 setTimeout(async()=>{ 
 
 
@@ -3869,7 +3852,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 621000)
+}, 601000)
 setTimeout(async()=>{ 
 
 
@@ -3877,15 +3860,15 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).click(); 
 
-}, 622000)
+}, 602000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.id("category_1")).sendKeys("c"); 
 
-}, 623000)
+}, 603000)
 setTimeout(async()=>{ 
 
 
@@ -3893,7 +3876,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 624000)
+}, 604000)
 setTimeout(async()=>{ 
 
 
@@ -3901,15 +3884,39 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 625000)
+}, 605000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.id("metadata.vehicleType")).click(); 
 
-}, 627000)
+}, 606000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+
+}, 607000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 608000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+
+}, 609000)
 setTimeout(async()=>{ 
 
 
@@ -3917,7 +3924,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
-}, 627000)
+}, 610000)
 setTimeout(async()=>{ 
 
 
@@ -3925,7 +3932,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).click(); 
 
-}, 628000)
+}, 611000)
 setTimeout(async()=>{ 
 
 
@@ -3933,7 +3940,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 629000)
+}, 612000)
 setTimeout(async()=>{ 
 
 
@@ -3941,7 +3948,15 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 630000)
+}, 613000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+
+}, 614000)
 setTimeout(async()=>{ 
 
 
@@ -3949,7 +3964,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).click(); 
 
-}, 631000)
+}, 615000)
 setTimeout(async()=>{ 
 
 
@@ -3957,13 +3972,141 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
-}, 632000)
+}, 616000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.tagName("body")).click(); 
+
+}, 617000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 618000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 619000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 620000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).click(); 
+
+}, 621000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+
+}, 622000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 623000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 624000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 625000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 626000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 627000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).click(); 
+
+}, 628000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 629000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 630000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 631000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).click(); 
+
+}, 632000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
 
 }, 633000)
 setTimeout(async()=>{ 
@@ -3979,7 +4122,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 635000)
 setTimeout(async()=>{ 
@@ -3987,7 +4130,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 636000)
 setTimeout(async()=>{ 
@@ -3995,7 +4138,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("price")).sendKeys(27000); 
 
 }, 637000)
 setTimeout(async()=>{ 
@@ -4003,7 +4146,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 638000)
 setTimeout(async()=>{ 
@@ -4011,7 +4154,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 639000)
 setTimeout(async()=>{ 
@@ -4019,7 +4162,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 640000)
 setTimeout(async()=>{ 
@@ -4027,7 +4170,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 641000)
 setTimeout(async()=>{ 
@@ -4035,7 +4178,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 642000)
 setTimeout(async()=>{ 
@@ -4043,7 +4186,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 643000)
 setTimeout(async()=>{ 
@@ -4051,7 +4194,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 644000)
 setTimeout(async()=>{ 
@@ -4059,7 +4202,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 645000)
 setTimeout(async()=>{ 
@@ -4067,7 +4210,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 646000)
 setTimeout(async()=>{ 
@@ -4083,7 +4226,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 648000)
 setTimeout(async()=>{ 
@@ -4091,7 +4234,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 649000)
 setTimeout(async()=>{ 
@@ -4099,7 +4242,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 650000)
 setTimeout(async()=>{ 
@@ -4107,189 +4250,13 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 651000)
-setTimeout(async()=>{ 
 
 
 
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 652000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 653000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 654000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 655000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 656000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 657000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 658000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(2900); 
-
-}, 659000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 660000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 661000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 662000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 663000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 664000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 665000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 666000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 667000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 668000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 669000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 670000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 671000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 672000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 673000)
-
-
-/*************************************************************************************
- * 
+/*****************************************************************************
  * 
  * 
  * 
@@ -4307,7 +4274,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 680000)
+}, 660000)
 setTimeout(async()=>{ 
 
 
@@ -4315,23 +4282,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 684000)
+}, 664000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.15 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-06 at 10.09.42 AM.jpeg"); 
 
-}, 688000)
+}, 668000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.41 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-06 at 10.09.45 AM.jpeg"); 
 
-}, 692000)
+}, 672000)
 setTimeout(async()=>{ 
 
 
@@ -4339,23 +4306,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 696000)
+}, 676000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("title")).sendKeys(dataMaster9.header); 
+      return driver.findElement(By.id("title")).sendKeys(dataMaster8.header); 
 
-}, 697000)
+}, 677000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("description")).sendKeys(dataMaster9.description); 
+      return driver.findElement(By.id("description")).sendKeys(dataMaster8.description); 
 
-}, 698000)
+}, 678000)
 setTimeout(async()=>{ 
 
 
@@ -4363,13 +4330,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 699000)
+}, 679000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 680000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 681000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 682000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 683000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 684000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 685000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 686000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 687000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 688000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 689000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 690000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 691000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 692000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 693000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 694000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 695000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 696000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 697000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 698000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 699000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 700000)
 setTimeout(async()=>{ 
@@ -4385,7 +4512,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 702000)
 setTimeout(async()=>{ 
@@ -4393,7 +4520,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 703000)
 setTimeout(async()=>{ 
@@ -4401,7 +4528,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 704000)
 setTimeout(async()=>{ 
@@ -4409,7 +4536,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 705000)
 setTimeout(async()=>{ 
@@ -4417,7 +4544,15 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 706000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 707000)
 setTimeout(async()=>{ 
@@ -4425,15 +4560,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 707000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 708000)
 setTimeout(async()=>{ 
@@ -4441,7 +4568,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 709000)
 setTimeout(async()=>{ 
@@ -4449,7 +4576,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 710000)
 setTimeout(async()=>{ 
@@ -4457,7 +4584,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 711000)
 setTimeout(async()=>{ 
@@ -4465,7 +4592,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 712000)
 setTimeout(async()=>{ 
@@ -4473,7 +4600,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 713000)
 setTimeout(async()=>{ 
@@ -4489,7 +4616,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 715000)
 setTimeout(async()=>{ 
@@ -4497,7 +4624,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 716000)
 setTimeout(async()=>{ 
@@ -4513,7 +4640,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 718000)
 setTimeout(async()=>{ 
@@ -4521,7 +4648,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(79000); 
 
 }, 719000)
 setTimeout(async()=>{ 
@@ -4529,7 +4656,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 720000)
 setTimeout(async()=>{ 
@@ -4537,7 +4664,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 721000)
 setTimeout(async()=>{ 
@@ -4545,7 +4672,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 722000)
 setTimeout(async()=>{ 
@@ -4553,7 +4680,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 723000)
 setTimeout(async()=>{ 
@@ -4561,7 +4688,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 724000)
 setTimeout(async()=>{ 
@@ -4569,7 +4696,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 725000)
 setTimeout(async()=>{ 
@@ -4577,7 +4704,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 726000)
 setTimeout(async()=>{ 
@@ -4585,7 +4712,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 727000)
 setTimeout(async()=>{ 
@@ -4593,7 +4720,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 728000)
 setTimeout(async()=>{ 
@@ -4601,7 +4728,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 729000)
 setTimeout(async()=>{ 
@@ -4609,7 +4736,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 730000)
 setTimeout(async()=>{ 
@@ -4617,7 +4744,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 731000)
 setTimeout(async()=>{ 
@@ -4625,7 +4752,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 732000)
 setTimeout(async()=>{ 
@@ -4633,174 +4760,11 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 733000)
-setTimeout(async()=>{ 
 
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 734000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 735000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 736000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 737000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 738000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(86000); 
-
-}, 739000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 740000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 741000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 742000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 743000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 744000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 745000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 746000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 747000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 748000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 749000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 750000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 751000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 752000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 753000)
-
-
-/**********************************************************************************
- * 
- * 
+/***********************************************************************
  * 
  * 
  * 
@@ -4817,7 +4781,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 760000)
+}, 740000)
 setTimeout(async()=>{ 
 
 
@@ -4825,23 +4789,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 764000)
+}, 744000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 6.12.28 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.40.09 AM.jpeg"); 
 
-}, 768000)
+}, 748000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 6.12.28 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.40.08 AM.jpeg"); 
 
-}, 772000)
+}, 752000)
 setTimeout(async()=>{ 
 
 
@@ -4849,23 +4813,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 776000)
+}, 756000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("title")).sendKeys(dataMaster10.header); 
+      return driver.findElement(By.id("title")).sendKeys(dataMaster9.header); 
 
-}, 777000)
+}, 757000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("description")).sendKeys(dataMaster10.description); 
+      return driver.findElement(By.id("description")).sendKeys(dataMaster9.description); 
 
-}, 778000)
+}, 758000)
 setTimeout(async()=>{ 
 
 
@@ -4873,7 +4837,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 779000)
+}, 759000)
 setTimeout(async()=>{ 
 
 
@@ -4881,7 +4845,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
-}, 780000)
+}, 760000)
 setTimeout(async()=>{ 
 
 
@@ -4889,7 +4853,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 781000)
+}, 761000)
 setTimeout(async()=>{ 
 
 
@@ -4897,15 +4861,15 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).click(); 
 
-}, 782000)
+}, 762000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.id("category_1")).sendKeys("c"); 
 
-}, 783000)
+}, 763000)
 setTimeout(async()=>{ 
 
 
@@ -4913,7 +4877,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 784000)
+}, 764000)
 setTimeout(async()=>{ 
 
 
@@ -4921,15 +4885,39 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 785000)
+}, 765000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.id("metadata.vehicleType")).click(); 
 
-}, 787000)
+}, 766000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+
+}, 767000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 768000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+
+}, 769000)
 setTimeout(async()=>{ 
 
 
@@ -4937,7 +4925,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
-}, 787000)
+}, 770000)
 setTimeout(async()=>{ 
 
 
@@ -4945,7 +4933,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).click(); 
 
-}, 788000)
+}, 771000)
 setTimeout(async()=>{ 
 
 
@@ -4953,7 +4941,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 789000)
+}, 772000)
 setTimeout(async()=>{ 
 
 
@@ -4961,7 +4949,15 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 790000)
+}, 773000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+
+}, 774000)
 setTimeout(async()=>{ 
 
 
@@ -4969,7 +4965,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).click(); 
 
-}, 791000)
+}, 775000)
 setTimeout(async()=>{ 
 
 
@@ -4977,13 +4973,141 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
-}, 792000)
+}, 776000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.tagName("body")).click(); 
+
+}, 777000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 778000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 779000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 780000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).click(); 
+
+}, 781000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+
+}, 782000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 783000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 784000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 785000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 786000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 787000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).click(); 
+
+}, 788000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 789000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 790000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 791000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).click(); 
+
+}, 792000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
 
 }, 793000)
 setTimeout(async()=>{ 
@@ -4999,7 +5123,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 795000)
 setTimeout(async()=>{ 
@@ -5007,7 +5131,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 796000)
 setTimeout(async()=>{ 
@@ -5015,7 +5139,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("price")).sendKeys(81000); 
 
 }, 797000)
 setTimeout(async()=>{ 
@@ -5023,7 +5147,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 798000)
 setTimeout(async()=>{ 
@@ -5031,7 +5155,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 799000)
 setTimeout(async()=>{ 
@@ -5039,7 +5163,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 800000)
 setTimeout(async()=>{ 
@@ -5047,7 +5171,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 801000)
 setTimeout(async()=>{ 
@@ -5055,7 +5179,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 802000)
 setTimeout(async()=>{ 
@@ -5063,7 +5187,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 803000)
 setTimeout(async()=>{ 
@@ -5071,7 +5195,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 804000)
 setTimeout(async()=>{ 
@@ -5079,7 +5203,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 805000)
 setTimeout(async()=>{ 
@@ -5087,7 +5211,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 806000)
 setTimeout(async()=>{ 
@@ -5103,7 +5227,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 808000)
 setTimeout(async()=>{ 
@@ -5111,7 +5235,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 809000)
 setTimeout(async()=>{ 
@@ -5119,7 +5243,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 810000)
 setTimeout(async()=>{ 
@@ -5127,79 +5251,26 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 811000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 812000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 813000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 814000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 815000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 816000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 817000)
-setTimeout(async()=>{ 
-
-
-
-
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 818000)
+}, 811000)
+
+/***********************************************************************
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+ 
+
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("price")).sendKeys(65000); 
-
-}, 819000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
+      return driver.get("https://www.corotos.com.do/create") 
 
 }, 820000)
 setTimeout(async()=>{ 
@@ -5207,31 +5278,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 821000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 822000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 823000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
 }, 824000)
 setTimeout(async()=>{ 
@@ -5239,31 +5286,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 825000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 826000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 827000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-28 at 2.43.44 PM.jpeg"); 
 
 }, 828000)
 setTimeout(async()=>{ 
@@ -5271,31 +5294,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 829000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 830000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 831000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-28 at 2.43.45 PM.jpeg"); 
 
 }, 832000)
 setTimeout(async()=>{ 
@@ -5305,24 +5304,37 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 833000)
-
-
-/********************************************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
+}, 836000)
 setTimeout(async()=>{ 
 
 
 
 
-     return driver.get("https://www.corotos.com.do/create") 
+      return driver.findElement(By.id("title")).sendKeys(dataMaster10.header); 
+
+}, 837000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("description")).sendKeys(dataMaster10.description); 
+
+}, 838000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).click(); 
+
+}, 839000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
 }, 840000)
 setTimeout(async()=>{ 
@@ -5330,7 +5342,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("_tealiumModalClose")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 841000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 842000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("c"); 
+
+}, 843000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 844000)
 setTimeout(async()=>{ 
@@ -5338,7 +5374,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 5.59.29 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 845000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).click(); 
+
+}, 846000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+
+}, 847000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 848000)
 setTimeout(async()=>{ 
@@ -5346,7 +5406,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-19 at 5.59.29 PM.jpeg"); 
+      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+
+}, 849000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 850000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 851000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
 }, 852000)
 setTimeout(async()=>{ 
@@ -5354,7 +5438,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 853000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+
+}, 854000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 855000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
 }, 856000)
 setTimeout(async()=>{ 
@@ -5362,7 +5470,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("title")).sendKeys(dataMaster11.header); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 857000)
 setTimeout(async()=>{ 
@@ -5370,7 +5478,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("description")).sendKeys(dataMaster11.description); 
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
 
 }, 858000)
 setTimeout(async()=>{ 
@@ -5378,7 +5486,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_0")).click(); 
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
 
 }, 859000)
 setTimeout(async()=>{ 
@@ -5386,7 +5494,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_0")).sendKeys("v"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 860000)
 setTimeout(async()=>{ 
@@ -5394,7 +5502,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 861000)
 setTimeout(async()=>{ 
@@ -5402,7 +5510,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 862000)
 setTimeout(async()=>{ 
@@ -5410,7 +5518,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_1")).sendKeys("c"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 863000)
 setTimeout(async()=>{ 
@@ -5418,7 +5526,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
 
 }, 864000)
 setTimeout(async()=>{ 
@@ -5426,7 +5534,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 865000)
 setTimeout(async()=>{ 
@@ -5434,7 +5542,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.vehicleType")).click(); 
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 866000)
 setTimeout(async()=>{ 
@@ -5442,7 +5550,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 867000)
 setTimeout(async()=>{ 
@@ -5450,7 +5558,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 868000)
 setTimeout(async()=>{ 
@@ -5458,7 +5566,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
 
 }, 869000)
 setTimeout(async()=>{ 
@@ -5466,7 +5574,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
 
 }, 870000)
 setTimeout(async()=>{ 
@@ -5474,7 +5582,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 871000)
 setTimeout(async()=>{ 
@@ -5482,7 +5590,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 872000)
 setTimeout(async()=>{ 
@@ -5490,7 +5598,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
 
 }, 873000)
 setTimeout(async()=>{ 
@@ -5498,7 +5606,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 874000)
 setTimeout(async()=>{ 
@@ -5506,7 +5614,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 875000)
 setTimeout(async()=>{ 
@@ -5514,7 +5622,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 876000)
 setTimeout(async()=>{ 
@@ -5522,7 +5630,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("price")).sendKeys(2600); 
 
 }, 877000)
 setTimeout(async()=>{ 
@@ -5530,7 +5638,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 878000)
 setTimeout(async()=>{ 
@@ -5538,7 +5646,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 879000)
 setTimeout(async()=>{ 
@@ -5546,7 +5654,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 880000)
 setTimeout(async()=>{ 
@@ -5554,7 +5662,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 881000)
 setTimeout(async()=>{ 
@@ -5562,7 +5670,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 882000)
 setTimeout(async()=>{ 
@@ -5570,7 +5678,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 883000)
 setTimeout(async()=>{ 
@@ -5578,7 +5686,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 884000)
 setTimeout(async()=>{ 
@@ -5586,7 +5694,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 885000)
 setTimeout(async()=>{ 
@@ -5594,7 +5702,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 886000)
 setTimeout(async()=>{ 
@@ -5602,7 +5710,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 887000)
 setTimeout(async()=>{ 
@@ -5610,7 +5718,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 888000)
 setTimeout(async()=>{ 
@@ -5618,7 +5726,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 889000)
 setTimeout(async()=>{ 
@@ -5626,7 +5734,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 890000)
 setTimeout(async()=>{ 
@@ -5634,172 +5742,11 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 891000)
-setTimeout(async()=>{ 
 
-
-
-
-     return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 892000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-}, 893000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 894000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 895000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 896000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("price")).sendKeys(49000); 
-
-}, 897000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).click(); 
-
-}, 898000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 899000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 900000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 901000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 902000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 903000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 904000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 905000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 906000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 907000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).click(); 
-
-}, 908000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 909000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 910000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 911000)
-
-/*************************************************************************************
- * 
+/**********************************************************************88
  * 
  * 
  * 
@@ -5814,7 +5761,71 @@ setTimeout(async()=>{
 
 
 
-     return driver.get("https://www.corotos.com.do/create") 
+      return driver.get("https://www.corotos.com.do/create") 
+
+}, 900000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("_tealiumModalClose")).click(); 
+
+}, 904000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 3.01.55 PM.jpeg"); 
+
+}, 908000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 3.01.53 PM.jpeg"); 
+
+}, 912000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 916000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("title")).sendKeys(dataMaster11.header); 
+
+}, 917000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("description")).sendKeys(dataMaster11.description); 
+
+}, 918000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).click(); 
+
+}, 919000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
 }, 920000)
 setTimeout(async()=>{ 
@@ -5822,7 +5833,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("_tealiumModalClose")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 921000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 922000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 923000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 924000)
 setTimeout(async()=>{ 
@@ -5830,7 +5865,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-12 at 10.11.45 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 925000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 926000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 927000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
 
 }, 928000)
 setTimeout(async()=>{ 
@@ -5838,7 +5897,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-12 at 10.11.45 AM.jpeg"); 
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 929000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 930000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 931000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
 }, 932000)
 setTimeout(async()=>{ 
@@ -5846,7 +5929,31 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 933000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 934000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 935000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
 
 }, 936000)
 setTimeout(async()=>{ 
@@ -5854,7 +5961,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("title")).sendKeys(dataMaster12.header); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 937000)
 setTimeout(async()=>{ 
@@ -5862,7 +5969,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("description")).sendKeys(dataMaster12.description); 
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
 
 }, 938000)
 setTimeout(async()=>{ 
@@ -5870,7 +5977,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_0")).click(); 
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 939000)
 setTimeout(async()=>{ 
@@ -5878,7 +5985,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_0")).sendKeys("v"); 
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 940000)
 setTimeout(async()=>{ 
@@ -5886,7 +5993,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 941000)
 setTimeout(async()=>{ 
@@ -5894,7 +6001,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 942000)
 setTimeout(async()=>{ 
@@ -5902,7 +6009,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 943000)
 setTimeout(async()=>{ 
@@ -5910,7 +6017,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 944000)
 setTimeout(async()=>{ 
@@ -5918,7 +6025,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 945000)
 setTimeout(async()=>{ 
@@ -5926,7 +6033,15 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 946000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 947000)
 setTimeout(async()=>{ 
@@ -5934,15 +6049,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 947000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 948000)
 setTimeout(async()=>{ 
@@ -5950,7 +6057,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 949000)
 setTimeout(async()=>{ 
@@ -5958,7 +6065,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 950000)
 setTimeout(async()=>{ 
@@ -5966,7 +6073,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 951000)
 setTimeout(async()=>{ 
@@ -5974,7 +6081,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 952000)
 setTimeout(async()=>{ 
@@ -5982,7 +6089,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 953000)
 setTimeout(async()=>{ 
@@ -5990,7 +6097,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 954000)
 setTimeout(async()=>{ 
@@ -5998,7 +6105,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 955000)
 setTimeout(async()=>{ 
@@ -6006,7 +6113,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 956000)
 setTimeout(async()=>{ 
@@ -6014,7 +6121,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 957000)
 setTimeout(async()=>{ 
@@ -6022,7 +6129,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 958000)
 setTimeout(async()=>{ 
@@ -6030,7 +6137,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(47500); 
 
 }, 959000)
 setTimeout(async()=>{ 
@@ -6038,7 +6145,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 960000)
 setTimeout(async()=>{ 
@@ -6046,7 +6153,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 961000)
 setTimeout(async()=>{ 
@@ -6054,7 +6161,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 962000)
 setTimeout(async()=>{ 
@@ -6062,7 +6169,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 963000)
 setTimeout(async()=>{ 
@@ -6070,7 +6177,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 964000)
 setTimeout(async()=>{ 
@@ -6078,7 +6185,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 965000)
 setTimeout(async()=>{ 
@@ -6086,7 +6193,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 966000)
 setTimeout(async()=>{ 
@@ -6094,7 +6201,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 967000)
 setTimeout(async()=>{ 
@@ -6102,7 +6209,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 968000)
 setTimeout(async()=>{ 
@@ -6110,7 +6217,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 969000)
 setTimeout(async()=>{ 
@@ -6118,7 +6225,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 970000)
 setTimeout(async()=>{ 
@@ -6126,7 +6233,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 971000)
 setTimeout(async()=>{ 
@@ -6134,7 +6241,7 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 972000)
 setTimeout(async()=>{ 
@@ -6142,174 +6249,11 @@ setTimeout(async()=>{
 
 
 
-     return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 973000)
-setTimeout(async()=>{ 
 
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 974000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 975000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 976000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 977000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 978000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("price")).sendKeys(86000); 
-
-}, 979000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).click(); 
-
-}, 980000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 981000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 982000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 983000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 984000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 985000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 986000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 987000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 988000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 989000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).click(); 
-
-}, 990000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 991000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 992000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 993000)
-
-
-
-/***********************************************************************************88
- * 
+/******************************************************************
  * 
  * 
  * 
@@ -6327,7 +6271,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 1000000)
+}, 980000)
 setTimeout(async()=>{ 
 
 
@@ -6335,23 +6279,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 1004000)
+}, 984000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-30 at 11.25.27 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.40.57 AM.jpeg"); 
 
-}, 1008000)
+}, 988000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-30 at 11.25.27 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.40.58 AM.jpeg"); 
 
-}, 1012000)
+}, 992000)
 setTimeout(async()=>{ 
 
 
@@ -6359,7 +6303,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 1016000)
+}, 996000)
 setTimeout(async()=>{ 
 
 
@@ -6367,7 +6311,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster12.header); 
 
-}, 1017000)
+}, 997000)
 setTimeout(async()=>{ 
 
 
@@ -6375,7 +6319,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster12.description); 
 
-}, 1018000)
+}, 998000)
 setTimeout(async()=>{ 
 
 
@@ -6383,13 +6327,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 1019000)
+}, 999000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 1000000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1001000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 1002000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 1003000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1004000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1005000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 1006000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 1007000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 1008000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1009000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1010000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 1011000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 1012000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1013000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1014000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 1015000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 1016000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1017000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 1018000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1019000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 1020000)
 setTimeout(async()=>{ 
@@ -6405,7 +6509,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 1022000)
 setTimeout(async()=>{ 
@@ -6413,7 +6517,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1023000)
 setTimeout(async()=>{ 
@@ -6421,7 +6525,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 1024000)
 setTimeout(async()=>{ 
@@ -6429,7 +6533,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 1025000)
 setTimeout(async()=>{ 
@@ -6437,7 +6541,15 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1026000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1027000)
 setTimeout(async()=>{ 
@@ -6445,15 +6557,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1027000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1028000)
 setTimeout(async()=>{ 
@@ -6461,7 +6565,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 1029000)
 setTimeout(async()=>{ 
@@ -6469,7 +6573,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 1030000)
 setTimeout(async()=>{ 
@@ -6477,7 +6581,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1031000)
 setTimeout(async()=>{ 
@@ -6485,7 +6589,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 1032000)
 setTimeout(async()=>{ 
@@ -6493,7 +6597,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 1033000)
 setTimeout(async()=>{ 
@@ -6509,7 +6613,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 1035000)
 setTimeout(async()=>{ 
@@ -6517,7 +6621,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 1036000)
 setTimeout(async()=>{ 
@@ -6533,7 +6637,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1038000)
 setTimeout(async()=>{ 
@@ -6541,7 +6645,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(59500); 
 
 }, 1039000)
 setTimeout(async()=>{ 
@@ -6549,7 +6653,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 1040000)
 setTimeout(async()=>{ 
@@ -6557,7 +6661,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1041000)
 setTimeout(async()=>{ 
@@ -6565,7 +6669,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1042000)
 setTimeout(async()=>{ 
@@ -6573,7 +6677,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1043000)
 setTimeout(async()=>{ 
@@ -6581,7 +6685,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1044000)
 setTimeout(async()=>{ 
@@ -6589,7 +6693,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1045000)
 setTimeout(async()=>{ 
@@ -6597,7 +6701,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1046000)
 setTimeout(async()=>{ 
@@ -6605,7 +6709,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1047000)
 setTimeout(async()=>{ 
@@ -6613,7 +6717,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1048000)
 setTimeout(async()=>{ 
@@ -6621,7 +6725,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1049000)
 setTimeout(async()=>{ 
@@ -6629,7 +6733,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 1050000)
 setTimeout(async()=>{ 
@@ -6637,7 +6741,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 1051000)
 setTimeout(async()=>{ 
@@ -6645,7 +6749,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1052000)
 setTimeout(async()=>{ 
@@ -6653,663 +6757,13 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1053000)
-setTimeout(async()=>{ 
 
 
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1054000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1055000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1056000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1057000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1058000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(67000); 
-
-}, 1059000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1060000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1061000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1062000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1063000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1064000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1065000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1066000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1067000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1068000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1069000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1070000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1071000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1072000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1073000)
-
-/*******************************************************************************
+/*********************************************************************************
  * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.get("https://www.corotos.com.do/create") 
-
-}, 1080000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1084000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.47.10 AM.jpeg"); 
-
-}, 1088000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.47.11 AM.jpeg"); 
-
-}, 1092000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1096000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("title")).sendKeys(dataMaster14.header); 
-
-}, 1097000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("description")).sendKeys(dataMaster14.description); 
-
-}, 1098000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_0")).click(); 
-
-}, 1099000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1100000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1101000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_1")).click(); 
-
-}, 1102000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_1")).sendKeys("c"); 
-
-}, 1103000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1104000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1105000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.vehicleType")).click(); 
-
-}, 1106000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
-
-}, 1107000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1108000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
-
-}, 1109000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1110000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1111000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1112000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1113000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1114000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1115000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1116000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1117000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1118000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1119000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1120000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1121000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1122000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1123000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1124000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1125000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1126000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1127000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1128000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-}, 1129000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-}, 1130000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1131000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1132000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-}, 1133000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1134000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1135000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1136000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("price")).sendKeys(27000); 
-
-}, 1137000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).click(); 
-
-}, 1138000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1139000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1140000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1141000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1142000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1143000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1144000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1145000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1146000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1147000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).click(); 
-
-}, 1148000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1149000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1150000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1151000)
-
-
-/**************************************************************************************8
  * 
  * 
  * 
@@ -7328,7 +6782,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 1160000)
+}, 1060000)
 setTimeout(async()=>{ 
 
 
@@ -7336,23 +6790,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 1164000)
+}, 1064000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.40.09 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.09.03 PM.jpeg"); 
 
-}, 1168000)
+}, 1068000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.40.08 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.09.04 PM.jpeg"); 
 
-}, 1172000)
+}, 1072000)
 setTimeout(async()=>{ 
 
 
@@ -7360,23 +6814,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 1176000)
+}, 1076000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("title")).sendKeys(dataMaster15.header); 
+      return driver.findElement(By.id("title")).sendKeys(dataMaster13.header); 
 
-}, 1177000)
+}, 1077000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("description")).sendKeys(dataMaster15.description); 
+      return driver.findElement(By.id("description")).sendKeys(dataMaster13.description); 
 
-}, 1178000)
+}, 1078000)
 setTimeout(async()=>{ 
 
 
@@ -7384,7 +6838,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 1179000)
+}, 1079000)
 setTimeout(async()=>{ 
 
 
@@ -7392,7 +6846,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
 
-}, 1180000)
+}, 1080000)
 setTimeout(async()=>{ 
 
 
@@ -7400,7 +6854,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 1181000)
+}, 1081000)
 setTimeout(async()=>{ 
 
 
@@ -7408,7 +6862,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).click(); 
 
-}, 1182000)
+}, 1082000)
 setTimeout(async()=>{ 
 
 
@@ -7416,7 +6870,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_1")).sendKeys("c"); 
 
-}, 1183000)
+}, 1083000)
 setTimeout(async()=>{ 
 
 
@@ -7424,7 +6878,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 1184000)
+}, 1084000)
 setTimeout(async()=>{ 
 
 
@@ -7432,7 +6886,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 1185000)
+}, 1085000)
 setTimeout(async()=>{ 
 
 
@@ -7440,7 +6894,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.vehicleType")).click(); 
 
-}, 1186000)
+}, 1086000)
 setTimeout(async()=>{ 
 
 
@@ -7448,7 +6902,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
 
-}, 1187000)
+}, 1087000)
 setTimeout(async()=>{ 
 
 
@@ -7456,7 +6910,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 1188000)
+}, 1088000)
 setTimeout(async()=>{ 
 
 
@@ -7464,7 +6918,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
 
-}, 1189000)
+}, 1089000)
 setTimeout(async()=>{ 
 
 
@@ -7472,7 +6926,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
 
-}, 1190000)
+}, 1090000)
 setTimeout(async()=>{ 
 
 
@@ -7480,7 +6934,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).click(); 
 
-}, 1191000)
+}, 1091000)
 setTimeout(async()=>{ 
 
 
@@ -7488,7 +6942,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 1192000)
+}, 1092000)
 setTimeout(async()=>{ 
 
 
@@ -7496,7 +6950,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
 
-}, 1193000)
+}, 1093000)
 setTimeout(async()=>{ 
 
 
@@ -7504,7 +6958,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
-}, 1194000)
+}, 1094000)
 setTimeout(async()=>{ 
 
 
@@ -7512,7 +6966,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).click(); 
 
-}, 1195000)
+}, 1095000)
 setTimeout(async()=>{ 
 
 
@@ -7520,7 +6974,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
 
-}, 1196000)
+}, 1096000)
 setTimeout(async()=>{ 
 
 
@@ -7528,7 +6982,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 1197000)
+}, 1097000)
 setTimeout(async()=>{ 
 
 
@@ -7536,7 +6990,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.outsideColor")).click(); 
 
-}, 1198000)
+}, 1098000)
 setTimeout(async()=>{ 
 
 
@@ -7544,7 +6998,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
 
-}, 1199000)
+}, 1099000)
 setTimeout(async()=>{ 
 
 
@@ -7552,7 +7006,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 1200000)
+}, 1100000)
 setTimeout(async()=>{ 
 
 
@@ -7560,7 +7014,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.condition")).click(); 
 
-}, 1201000)
+}, 1101000)
 setTimeout(async()=>{ 
 
 
@@ -7568,7 +7022,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
-}, 1202000)
+}, 1102000)
 setTimeout(async()=>{ 
 
 
@@ -7576,7 +7030,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.tagName("body")).click(); 
 
-}, 1203000)
+}, 1103000)
 setTimeout(async()=>{ 
 
 
@@ -7584,13 +7038,667 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("metadata.insideColor")).click(); 
 
-}, 1204000)
+}, 1104000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1105000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1106000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1107000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).click(); 
+
+}, 1108000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 1109000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 1110000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1111000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).click(); 
+
+}, 1112000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
+
+}, 1113000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1114000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1115000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1116000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("price")).sendKeys(41000); 
+
+}, 1117000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).click(); 
+
+}, 1118000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1119000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1120000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1121000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1122000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1123000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1124000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1125000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1126000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1127000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_1")).click(); 
+
+}, 1128000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
+
+}, 1129000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1130000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1131000)
+
+/***************************************************************************
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.get("https://www.corotos.com.do/create") 
+
+}, 1140000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("_tealiumModalClose")).click(); 
+
+}, 1144000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.59 PM.jpeg"); 
+
+}, 1148000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.09.00 PM.jpeg"); 
+
+}, 1152000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1156000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("title")).sendKeys(dataMaster14.header); 
+
+}, 1157000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("description")).sendKeys(dataMaster14.description); 
+
+}, 1158000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).click(); 
+
+}, 1159000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 1160000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1161000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 1162000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("c"); 
+
+}, 1163000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1164000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1165000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).click(); 
+
+}, 1166000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+
+}, 1167000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1168000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+
+}, 1169000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 1170000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 1171000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1172000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1173000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+
+}, 1174000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 1175000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 1176000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1177000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 1178000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 1179000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1180000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).click(); 
+
+}, 1181000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+
+}, 1182000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1183000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 1184000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1185000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1186000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1187000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).click(); 
+
+}, 1188000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 1189000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+
+}, 1190000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1191000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).click(); 
+
+}, 1192000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
+
+}, 1193000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1194000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1195000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1196000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("price")).sendKeys(41000); 
+
+}, 1197000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).click(); 
+
+}, 1198000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1199000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1200000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1201000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1202000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1203000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1204000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1205000)
 setTimeout(async()=>{ 
@@ -7598,7 +7706,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1206000)
 setTimeout(async()=>{ 
@@ -7614,7 +7722,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 1208000)
 setTimeout(async()=>{ 
@@ -7622,7 +7730,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 1209000)
 setTimeout(async()=>{ 
@@ -7630,7 +7738,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1210000)
 setTimeout(async()=>{ 
@@ -7638,172 +7746,13 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1211000)
-setTimeout(async()=>{ 
 
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1212000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-}, 1213000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1214000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1215000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1216000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(85000); 
-
-}, 1217000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1218000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1219000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1220000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1221000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1222000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1223000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1224000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1225000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1226000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1227000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1228000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1229000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1230000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1231000)
-
-
-/*********************************************************************************8
+/************************************************************************
+ * 
+ * 
  * 
  * 
  * 
@@ -7820,7 +7769,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 1240000)
+}, 1220000)
 setTimeout(async()=>{ 
 
 
@@ -7828,23 +7777,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 1244000)
+}, 1224000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 9.48.41 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
 
-}, 1248000)
+}, 1228000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 9.48.46 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
 
-}, 1252000)
+}, 1232000)
 setTimeout(async()=>{ 
 
 
@@ -7852,23 +7801,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 1256000)
+}, 1236000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("title")).sendKeys(dataMaster16.header); 
+      return driver.findElement(By.id("title")).sendKeys(dataMaster15.header); 
 
-}, 1257000)
+}, 1237000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("description")).sendKeys(dataMaster16.description); 
+      return driver.findElement(By.id("description")).sendKeys(dataMaster15.description); 
 
-}, 1258000)
+}, 1238000)
 setTimeout(async()=>{ 
 
 
@@ -7876,13 +7825,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 1259000)
+}, 1239000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 1240000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1241000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 1242000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 1243000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1244000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1245000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 1246000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 1247000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 1248000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1249000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1250000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 1251000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 1252000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1253000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1254000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 1255000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 1256000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1257000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 1258000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1259000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 1260000)
 setTimeout(async()=>{ 
@@ -7898,7 +8007,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 1262000)
 setTimeout(async()=>{ 
@@ -7906,7 +8015,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("c"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1263000)
 setTimeout(async()=>{ 
@@ -7914,7 +8023,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 1264000)
 setTimeout(async()=>{ 
@@ -7922,7 +8031,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 1265000)
 setTimeout(async()=>{ 
@@ -7930,7 +8039,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.vehicleType")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1266000)
 setTimeout(async()=>{ 
@@ -7938,7 +8047,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1267000)
 setTimeout(async()=>{ 
@@ -7954,7 +8063,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 1269000)
 setTimeout(async()=>{ 
@@ -7962,7 +8071,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 1270000)
 setTimeout(async()=>{ 
@@ -7970,7 +8079,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1271000)
 setTimeout(async()=>{ 
@@ -7978,7 +8087,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 1272000)
 setTimeout(async()=>{ 
@@ -7986,7 +8095,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 1273000)
 setTimeout(async()=>{ 
@@ -7994,7 +8103,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1274000)
 setTimeout(async()=>{ 
@@ -8002,7 +8111,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 1275000)
 setTimeout(async()=>{ 
@@ -8010,7 +8119,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 1276000)
 setTimeout(async()=>{ 
@@ -8026,7 +8135,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1278000)
 setTimeout(async()=>{ 
@@ -8034,7 +8143,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("price")).sendKeys(59500); 
 
 }, 1279000)
 setTimeout(async()=>{ 
@@ -8042,7 +8151,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 1280000)
 setTimeout(async()=>{ 
@@ -8050,7 +8159,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1281000)
 setTimeout(async()=>{ 
@@ -8058,7 +8167,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1282000)
 setTimeout(async()=>{ 
@@ -8066,7 +8175,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1283000)
 setTimeout(async()=>{ 
@@ -8074,7 +8183,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1284000)
 setTimeout(async()=>{ 
@@ -8082,7 +8191,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1285000)
 setTimeout(async()=>{ 
@@ -8090,7 +8199,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1286000)
 setTimeout(async()=>{ 
@@ -8098,7 +8207,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1287000)
 setTimeout(async()=>{ 
@@ -8106,7 +8215,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1288000)
 setTimeout(async()=>{ 
@@ -8114,7 +8223,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1289000)
 setTimeout(async()=>{ 
@@ -8122,7 +8231,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 1290000)
 setTimeout(async()=>{ 
@@ -8130,7 +8239,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 1291000)
 setTimeout(async()=>{ 
@@ -8138,7 +8247,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1292000)
 setTimeout(async()=>{ 
@@ -8146,155 +8255,14 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1293000)
-setTimeout(async()=>{ 
 
 
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1294000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1295000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1296000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(49000); 
-
-}, 1297000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1298000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1299000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1300000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1301000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1302000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1303000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1304000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1305000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1306000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1307000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1308000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1309000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1310000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1311000)
-
-/**************************************************************************************
+/****************************************************************************8
+ * 
+ * 
  * 
  * 
  * 
@@ -8312,7 +8280,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 1320000)
+}, 1220000)
 setTimeout(async()=>{ 
 
 
@@ -8320,23 +8288,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 1324000)
+}, 1224000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-06 at 10.09.42 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
 
-}, 1328000)
+}, 1228000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-06 at 10.09.45 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
 
-}, 1332000)
+}, 1232000)
 setTimeout(async()=>{ 
 
 
@@ -8344,23 +8312,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 1336000)
+}, 1236000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("title")).sendKeys(dataMaster17.header); 
+      return driver.findElement(By.id("title")).sendKeys(dataMaster16.header); 
 
-}, 1337000)
+}, 1237000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.id("description")).sendKeys(dataMaster17.description); 
+      return driver.findElement(By.id("description")).sendKeys(dataMaster16.description); 
 
-}, 1338000)
+}, 1238000)
 setTimeout(async()=>{ 
 
 
@@ -8368,13 +8336,682 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 1339000)
+}, 1239000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 1240000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1241000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 1242000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 1243000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1244000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1245000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 1246000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 1247000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 1248000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1249000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1250000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 1251000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 1252000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1253000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1254000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 1255000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 1256000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1257000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 1258000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1259000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1260000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1261000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+
+}, 1262000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1263000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).click(); 
+
+}, 1264000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+
+}, 1265000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1266000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1267000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1268000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).click(); 
+
+}, 1269000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+
+}, 1270000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1271000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).click(); 
+
+}, 1272000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+
+}, 1273000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1274000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
+
+}, 1275000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
+
+}, 1276000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1277000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1278000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("price")).sendKeys(59500); 
+
+}, 1279000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).click(); 
+
+}, 1280000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1281000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1282000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1283000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1284000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1285000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1286000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1287000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
+
+}, 1288000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1289000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_1")).click(); 
+
+}, 1290000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
+
+}, 1291000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1292000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1293000)
+
+/**********************************************************************************
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.get("https://www.corotos.com.do/create") 
+
+}, 1300000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("_tealiumModalClose")).click(); 
+
+}, 1304000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM (1).jpeg"); 
+
+}, 1308000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM.jpeg"); 
+
+}, 1312000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1316000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("title")).sendKeys(dataMaster17.header); 
+
+}, 1317000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("description")).sendKeys(dataMaster17.description); 
+
+}, 1318000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).click(); 
+
+}, 1319000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 1320000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1321000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 1322000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 1323000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1324000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1325000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 1326000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 1327000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 1328000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1329000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1330000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 1331000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 1332000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1333000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1334000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 1335000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 1336000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1337000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 1338000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1339000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 1340000)
 setTimeout(async()=>{ 
@@ -8390,7 +9027,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 1342000)
 setTimeout(async()=>{ 
@@ -8398,7 +9035,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1343000)
 setTimeout(async()=>{ 
@@ -8406,7 +9043,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 1344000)
 setTimeout(async()=>{ 
@@ -8414,7 +9051,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 1345000)
 setTimeout(async()=>{ 
@@ -8422,7 +9059,15 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1346000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1347000)
 setTimeout(async()=>{ 
@@ -8430,15 +9075,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1347000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1348000)
 setTimeout(async()=>{ 
@@ -8446,7 +9083,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 1349000)
 setTimeout(async()=>{ 
@@ -8454,7 +9091,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 1350000)
 setTimeout(async()=>{ 
@@ -8462,7 +9099,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1351000)
 setTimeout(async()=>{ 
@@ -8470,7 +9107,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 1352000)
 setTimeout(async()=>{ 
@@ -8478,7 +9115,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 1353000)
 setTimeout(async()=>{ 
@@ -8494,7 +9131,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 1355000)
 setTimeout(async()=>{ 
@@ -8502,7 +9139,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 1356000)
 setTimeout(async()=>{ 
@@ -8518,7 +9155,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1358000)
 setTimeout(async()=>{ 
@@ -8526,7 +9163,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(41500); 
 
 }, 1359000)
 setTimeout(async()=>{ 
@@ -8534,7 +9171,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 1360000)
 setTimeout(async()=>{ 
@@ -8542,7 +9179,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1361000)
 setTimeout(async()=>{ 
@@ -8550,7 +9187,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1362000)
 setTimeout(async()=>{ 
@@ -8558,7 +9195,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1363000)
 setTimeout(async()=>{ 
@@ -8566,7 +9203,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1364000)
 setTimeout(async()=>{ 
@@ -8574,7 +9211,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1365000)
 setTimeout(async()=>{ 
@@ -8582,7 +9219,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1366000)
 setTimeout(async()=>{ 
@@ -8590,7 +9227,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1367000)
 setTimeout(async()=>{ 
@@ -8598,7 +9235,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1368000)
 setTimeout(async()=>{ 
@@ -8606,7 +9243,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1369000)
 setTimeout(async()=>{ 
@@ -8614,7 +9251,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 1370000)
 setTimeout(async()=>{ 
@@ -8622,7 +9259,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 1371000)
 setTimeout(async()=>{ 
@@ -8630,7 +9267,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1372000)
 setTimeout(async()=>{ 
@@ -8638,172 +9275,12 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1373000)
-setTimeout(async()=>{ 
 
 
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1374000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1375000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1376000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1377000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1378000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(79000); 
-
-}, 1379000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1380000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1381000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1382000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1383000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1384000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1385000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1386000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1387000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1388000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1389000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1390000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1391000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1392000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1393000)
-
-
-/*************************************************************************************
+/*******************************************************************
  * 
  * 
  * 
@@ -8814,7 +9291,6 @@ setTimeout(async()=>{
  * 
  */
 
-
 setTimeout(async()=>{ 
 
 
@@ -8822,7 +9298,7 @@ setTimeout(async()=>{
 
       return driver.get("https://www.corotos.com.do/create") 
 
-}, 1400000)
+}, 1380000)
 setTimeout(async()=>{ 
 
 
@@ -8830,23 +9306,23 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("_tealiumModalClose")).click(); 
 
-}, 1404000)
+}, 1384000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.15 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM (1).jpeg"); 
 
-}, 1408000)
+}, 1388000)
 setTimeout(async()=>{ 
 
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-12 at 5.14.41 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM.jpeg"); 
 
-}, 1412000)
+}, 1392000)
 setTimeout(async()=>{ 
 
 
@@ -8854,7 +9330,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
-}, 1416000)
+}, 1396000)
 setTimeout(async()=>{ 
 
 
@@ -8862,7 +9338,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("title")).sendKeys(dataMaster18.header); 
 
-}, 1417000)
+}, 1397000)
 setTimeout(async()=>{ 
 
 
@@ -8870,7 +9346,7 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("description")).sendKeys(dataMaster18.description); 
 
-}, 1418000)
+}, 1398000)
 setTimeout(async()=>{ 
 
 
@@ -8878,13 +9354,173 @@ setTimeout(async()=>{
 
       return driver.findElement(By.id("category_0")).click(); 
 
-}, 1419000)
+}, 1399000)
 setTimeout(async()=>{ 
 
 
 
 
       return driver.findElement(By.id("category_0")).sendKeys("v"); 
+
+}, 1400000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1401000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).click(); 
+
+}, 1402000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+
+}, 1403000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1404000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+
+}, 1405000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+
+}, 1406000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
+
+}, 1407000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).click(); 
+
+}, 1408000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1409000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+
+}, 1410000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).click(); 
+
+}, 1411000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+
+}, 1412000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1413000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1414000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+
+}, 1415000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+
+}, 1416000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1417000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).click(); 
+
+}, 1418000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+
+}, 1419000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
 
 }, 1420000)
 setTimeout(async()=>{ 
@@ -8900,7 +9536,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).click(); 
+      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
 
 }, 1422000)
 setTimeout(async()=>{ 
@@ -8908,7 +9544,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1423000)
 setTimeout(async()=>{ 
@@ -8916,7 +9552,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.condition")).click(); 
 
 }, 1424000)
 setTimeout(async()=>{ 
@@ -8924,7 +9560,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
 
 }, 1425000)
 setTimeout(async()=>{ 
@@ -8932,7 +9568,15 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
+      return driver.findElement(By.tagName("body")).click(); 
+
+}, 1426000)
+setTimeout(async()=>{ 
+
+
+
+
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1427000)
 setTimeout(async()=>{ 
@@ -8940,15 +9584,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1427000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1428000)
 setTimeout(async()=>{ 
@@ -8956,7 +9592,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).click(); 
 
 }, 1429000)
 setTimeout(async()=>{ 
@@ -8964,7 +9600,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
+      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
 
 }, 1430000)
 setTimeout(async()=>{ 
@@ -8972,7 +9608,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1431000)
 setTimeout(async()=>{ 
@@ -8980,7 +9616,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
+      return driver.findElement(By.id("metadata.model")).click(); 
 
 }, 1432000)
 setTimeout(async()=>{ 
@@ -8988,7 +9624,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
 
 }, 1433000)
 setTimeout(async()=>{ 
@@ -9004,7 +9640,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
 
 }, 1435000)
 setTimeout(async()=>{ 
@@ -9012,7 +9648,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
+      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
 
 }, 1436000)
 setTimeout(async()=>{ 
@@ -9028,7 +9664,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1438000)
 setTimeout(async()=>{ 
@@ -9036,7 +9672,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("price")).sendKeys(69500); 
 
 }, 1439000)
 setTimeout(async()=>{ 
@@ -9044,7 +9680,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
+      return driver.findElement(By.id("region_0")).click(); 
 
 }, 1440000)
 setTimeout(async()=>{ 
@@ -9052,7 +9688,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1441000)
 setTimeout(async()=>{ 
@@ -9060,7 +9696,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1442000)
 setTimeout(async()=>{ 
@@ -9068,7 +9704,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1443000)
 setTimeout(async()=>{ 
@@ -9076,7 +9712,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1444000)
 setTimeout(async()=>{ 
@@ -9084,7 +9720,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1445000)
 setTimeout(async()=>{ 
@@ -9092,7 +9728,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1446000)
 setTimeout(async()=>{ 
@@ -9100,7 +9736,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1447000)
 setTimeout(async()=>{ 
@@ -9108,7 +9744,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_0")).sendKeys("s"); 
 
 }, 1448000)
 setTimeout(async()=>{ 
@@ -9116,7 +9752,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).click(); 
+      return driver.findElement(By.tagName("body")).click(); 
 
 }, 1449000)
 setTimeout(async()=>{ 
@@ -9124,7 +9760,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
+      return driver.findElement(By.id("region_1")).click(); 
 
 }, 1450000)
 setTimeout(async()=>{ 
@@ -9132,7 +9768,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.tagName("body")).click(); 
+      return driver.findElement(By.id("region_1")).sendKeys("s"); 
 
 }, 1451000)
 setTimeout(async()=>{ 
@@ -9140,7 +9776,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).click(); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1452000)
 setTimeout(async()=>{ 
@@ -9148,1662 +9784,9 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
+      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
 
 }, 1453000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1454000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1455000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1456000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1457000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1458000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(86000); 
-
-}, 1459000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1460000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1461000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1462000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1463000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1464000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1465000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1466000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1467000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1468000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1469000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1470000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1471000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1472000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1473000)
-
-
-/**************************************************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 1500000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1504000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-08 at 11.09.29 AM.jpeg"); 
-
-}, 1508000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-08 at 11.09.28 AM.jpeg"); 
-
-}, 1512000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1516000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster19.header); 
-
-}, 1517000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster19.description); 
-
-}, 1518000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 1519000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1520000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1521000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 1522000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("c"); 
-
-}, 1523000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1524000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1525000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.vehicleType")).click(); 
-
-}, 1526000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
-
-}, 1527000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1528000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
-
-}, 1529000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1530000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1531000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1532000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1533000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1534000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1535000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1536000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1537000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1538000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1539000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1540000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1541000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1542000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1543000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1544000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1545000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1546000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1547000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1548000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-}, 1549000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-}, 1550000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1551000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1552000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-}, 1553000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1554000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1555000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1556000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(69000); 
-
-}, 1557000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1558000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1559000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1560000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1561000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1562000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1563000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1564000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1565000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1566000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1567000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1568000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1569000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1570000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1571000)
-
-/******************************************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.get("https://www.corotos.com.do/create") 
-
-}, 1580000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1584000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-24 at 12.46.00 PM (1).jpeg"); 
-
-}, 1588000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-24 at 12.46.00 PM.jpeg"); 
-
-}, 1592000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1596000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("title")).sendKeys(dataMaster20.header); 
-
-}, 1597000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("description")).sendKeys(dataMaster20.description); 
-
-}, 1598000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_0")).click(); 
-
-}, 1599000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1600000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1601000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_1")).click(); 
-
-}, 1602000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("category_1")).sendKeys("j"); 
-
-}, 1603000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1604000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1605000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
-
-}, 1607000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1607000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1608000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1609000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1610000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1611000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1612000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1613000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1614000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1615000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1616000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1617000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1618000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1619000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1620000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1621000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1622000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1623000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1624000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1625000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1626000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1627000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1628000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1629000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
-
-}, 1630000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1631000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1632000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 1633000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1634000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1635000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1636000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1637000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1638000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("price")).sendKeys(59000); 
-
-}, 1639000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).click(); 
-
-}, 1640000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1641000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1642000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1643000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1644000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1645000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1646000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1647000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1648000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.tagName("body")).click(); 
-
-}, 1649000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).click(); 
-
-}, 1650000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1651000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1652000)
-setTimeout(async()=>{ 
-
-
-
-
-     return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1653000)
-
-/****************************************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 1660000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1664000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-28 at 2.43.44 PM.jpeg"); 
-
-}, 1668000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-28 at 2.43.45 PM.jpeg"); 
-
-}, 1672000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1676000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster21.header); 
-
-}, 1677000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster21.description); 
-
-}, 1678000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 1679000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1680000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1681000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 1682000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("c"); 
-
-}, 1683000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1684000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1685000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.vehicleType")).click(); 
-
-}, 1686000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
-
-}, 1687000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1688000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
-
-}, 1689000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1690000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1691000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1692000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1693000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1694000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1695000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1696000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1697000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1698000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1699000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1700000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1701000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1702000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1703000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1704000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1705000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1706000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1707000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1708000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-}, 1709000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-}, 1710000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1711000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1712000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-}, 1713000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1714000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1715000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1716000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(2600); 
-
-}, 1717000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1718000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1719000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1720000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1721000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1722000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1723000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1724000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1725000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1726000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1727000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1728000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1729000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1730000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1731000)
-
 
 /****************************************************************************************
  * 
@@ -10814,3523 +9797,10 @@ setTimeout(async()=>{
  * 
  * 
  * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 1740000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1744000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM (1).jpeg"); 
-
-}, 1748000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM.jpeg"); 
-
-}, 1752000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1756000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster22.header); 
-
-}, 1757000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster22.description); 
-
-}, 1758000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 1759000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1760000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1761000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 1762000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
-
-}, 1763000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1764000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1765000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
-
-}, 1766000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1767000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1768000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1769000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1770000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1771000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1772000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1773000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1774000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1775000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1776000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1777000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1778000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1779000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1780000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1781000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1782000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1783000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1784000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1785000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1786000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1787000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1788000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1789000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
-
-}, 1790000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1791000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1792000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 1793000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1794000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1795000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1796000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1797000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1798000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(69500); 
-
-}, 1799000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1800000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1801000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1802000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1803000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1804000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1805000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1806000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1807000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1808000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1809000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1810000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1811000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1812000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1813000)
-
-/****************************************************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 1820000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1824000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.40.57 AM.jpeg"); 
-
-}, 1828000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.40.58 AM.jpeg"); 
-
-}, 1832000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1836000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster23.header); 
-
-}, 1837000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster23.description); 
-
-}, 1838000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 1839000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1840000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1841000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 1842000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
-
-}, 1843000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1844000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1845000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
-
-}, 1846000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1847000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1848000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1849000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1850000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1851000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1852000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1853000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1854000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1855000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1856000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1857000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1858000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1859000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1860000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1861000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1862000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1863000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1864000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1865000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1866000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1867000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1868000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1869000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
-
-}, 1870000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1871000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1872000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 1873000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1874000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1875000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1876000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1877000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1878000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(59500); 
-
-}, 1879000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1880000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1881000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1882000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1883000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1884000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1885000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1886000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1887000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1888000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1889000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1890000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1891000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1892000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1893000)
-
-/******************************************************************
- * 
- * 
- * 
- * 
- * 
- */
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 1900000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1904000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM (1).jpeg"); 
-
-}, 1908000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM.jpeg"); 
-
-}, 1912000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1916000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster23.header); 
-
-}, 1917000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster23.description); 
-
-}, 1918000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 1919000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 1920000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1921000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 1922000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
-
-}, 1923000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1924000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1925000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
-
-}, 1926000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 1927000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 1928000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1929000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 1930000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 1931000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 1932000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1933000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1934000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 1935000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 1936000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1937000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 1938000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1939000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 1940000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1941000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 1942000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1943000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 1944000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 1945000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1946000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1947000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1948000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 1949000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
-
-}, 1950000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1951000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 1952000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 1953000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1954000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 1955000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 1956000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1957000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1958000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(41500); 
-
-}, 1959000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 1960000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1961000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1962000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1963000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1964000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1965000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1966000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1967000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 1968000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 1969000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 1970000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 1971000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1972000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1973000)
-
-
-/**************************************************
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
  */
 
 
-setTimeout(async()=>{ 
 
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 1980000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 1984000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
-
-}, 1988000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
-
-}, 1992000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 1996000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster25.header); 
-
-}, 1997000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster25.description); 
-
-}, 1998000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 1999000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 2000000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2001000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 2002000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
-
-}, 2003000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2004000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2005000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
-
-}, 2006000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 2007000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 2008000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 2009000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 2010000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 2011000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 2012000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2013000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2014000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 2015000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 2016000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2017000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 2018000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 2019000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 2020000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2021000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 2022000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2023000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 2024000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 2025000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2026000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2027000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2028000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 2029000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
-
-}, 2030000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2031000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 2032000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 2033000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2034000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 2035000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 2036000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2037000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2038000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(59500); 
-
-}, 2039000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 2040000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2041000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2042000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2043000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2044000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2045000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2046000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2047000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2048000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2049000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 2050000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 2051000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2052000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2053000)
-
-
-/********************************************
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-
-         setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.get("https://www.corotos.com.do/create") 
-
-  }, 2060000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-  }, 2064000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.59 PM.jpeg"); 
-
-  }, 2068000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.09.00 PM.jpeg"); 
-
-  }, 2072000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2076000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("title")).sendKeys(dataMaster26.header); 
-
-  }, 2077000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("description")).sendKeys(dataMaster26.description); 
-
-  }, 2078000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_0")).click(); 
-
-  }, 2079000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-  }, 2080000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2081000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_1")).click(); 
-
-  }, 2082000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_1")).sendKeys("c"); 
-
-  }, 2083000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2084000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2085000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.vehicleType")).click(); 
-
-  }, 2086000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
-
-  }, 2087000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2088000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
-
-  }, 2089000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-  }, 2090000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.fuel")).click(); 
-
-  }, 2091000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-  }, 2092000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-  }, 2093000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-  }, 2094000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.transmission")).click(); 
-
-  }, 2095000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-  }, 2096000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2097000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-  }, 2098000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-  }, 2099000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2100000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.condition")).click(); 
-
-  }, 2101000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-  }, 2102000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2103000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-  }, 2104000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-  }, 2105000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-  }, 2106000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2107000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.make")).click(); 
-
-  }, 2108000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-  }, 2109000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-  }, 2110000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2111000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.model")).click(); 
-
-  }, 2112000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-  }, 2113000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2114000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2115000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2116000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("price")).sendKeys(35000); 
-
-  }, 2117000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).click(); 
-
-  }, 2118000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2119000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2120000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2121000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2122000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2123000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2124000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2125000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2126000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2127000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_1")).click(); 
-
-  }, 2128000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-  }, 2129000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2130000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2131000)
-
-  /********************************************************************
-   * 
-   * 
-   * 
-   * 
-   * 
-   */
-
-
-               setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.get("https://www.corotos.com.do/create") 
-
-  }, 2140000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-  }, 2144000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.09.03 PM.jpeg"); 
-
-  }, 2148000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.09.04 PM.jpeg"); 
-
-  }, 2152000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2156000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("title")).sendKeys(dataMaster27.header); 
-
-  }, 2157000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("description")).sendKeys(dataMaster27.description); 
-
-  }, 2158000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_0")).click(); 
-
-  }, 2159000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-  }, 2160000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2161000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_1")).click(); 
-
-  }, 2162000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("category_1")).sendKeys("c"); 
-
-  }, 2163000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2164000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2165000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.vehicleType")).click(); 
-
-  }, 2166000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.vehicleType")).sendKeys("s"); 
-
-  }, 2167000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2168000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.year")).sendKeys("2012"); 
-
-  }, 2169000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-  }, 2170000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.fuel")).click(); 
-
-  }, 2171000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-  }, 2172000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-  }, 2173000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-  }, 2174000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.transmission")).click(); 
-
-  }, 2175000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-  }, 2176000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2177000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-  }, 2178000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-  }, 2179000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2180000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.condition")).click(); 
-
-  }, 2181000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-  }, 2182000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2183000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-  }, 2184000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-  }, 2185000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-  }, 2186000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2187000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.make")).click(); 
-
-  }, 2188000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-  }, 2189000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.make")).sendKeys("t"); 
-
-  }, 2190000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2191000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.model")).click(); 
-
-  }, 2192000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("metadata.model")).sendKeys("p"); 
-
-  }, 2193000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2194000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2195000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2196000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("price")).sendKeys(315000); 
-
-  }, 2197000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).click(); 
-
-  }, 2198000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2199000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2200000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2201000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2202000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2203000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2204000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2205000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-  }, 2206000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.tagName("body")).click(); 
-
-  }, 2207000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_1")).click(); 
-
-  }, 2208000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-  }, 2209000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2210000)
- setTimeout(async()=>{ 
-
-
-
-
- 	       return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-  }, 2211000)
-
-      
-/******************************************************************************8
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- */
-
-
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.get("https://www.corotos.com.do/create") 
-
-}, 2220000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("_tealiumModalClose")).click(); 
-
-}, 2224000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 3.01.55 PM.jpeg"); 
-
-}, 2228000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 3.01.53 PM.jpeg"); 
-
-}, 2232000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2236000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("title")).sendKeys(dataMaster28.header); 
-
-}, 2237000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("description")).sendKeys(dataMaster28.description); 
-
-}, 2238000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).click(); 
-
-}, 2239000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_0")).sendKeys("v"); 
-
-}, 2240000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2241000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).click(); 
-
-}, 2242000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("category_1")).sendKeys("j"); 
-
-}, 2243000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2244000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2245000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.year")).sendKeys("2013"); 
-
-}, 2246000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.mileage")).sendKeys("1000"); 
-
-}, 2247000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).click(); 
-
-}, 2248000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 2249000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.fuel")).sendKeys("g"); 
-
-}, 2250000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).click(); 
-
-}, 2251000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.transmission")).sendKeys("a"); 
-
-}, 2252000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2253000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2254000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).click(); 
-
-}, 2255000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.outsideColor")).sendKeys("r"); 
-
-}, 2256000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2257000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).click(); 
-
-}, 2258000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 2259000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.insideColor")).sendKeys("n"); 
-
-}, 2260000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2261000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.horsePower")).sendKeys("4"); 
-
-}, 2262000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2263000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).click(); 
-
-}, 2264000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.condition")).sendKeys("u"); 
-
-}, 2265000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2266000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2267000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2268000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).click(); 
-
-}, 2269000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.make")).sendKeys("h"); 
-
-}, 2270000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2271000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).click(); 
-
-}, 2272000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.model")).sendKeys("f"); 
-
-}, 2273000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2274000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).click(); 
-
-}, 2275000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("metadata.heavyVehicleType")).sendKeys("j"); 
-
-}, 2276000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2277000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2278000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("price")).sendKeys(49000); 
-
-}, 2279000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).click(); 
-
-}, 2280000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2281000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2282000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2283000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2284000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2285000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2286000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2287000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_0")).sendKeys("s"); 
-
-}, 2288000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.tagName("body")).click(); 
-
-}, 2289000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).click(); 
-
-}, 2290000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.id("region_1")).sendKeys("s"); 
-
-}, 2291000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2292000)
-setTimeout(async()=>{ 
-
-
-
-
-      return driver.findElement(By.xpath("//button[@type='submit']")).click(); 
-
-}, 2293000)
 
 
 
