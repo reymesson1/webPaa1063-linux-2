@@ -284,7 +284,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM (1).jpeg"); 
 
 }, 33000)
 setTimeout(async()=>{ 
@@ -292,7 +292,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.16.36 PM.jpeg"); 
 
 }, 37000)
 setTimeout(async()=>{ 
@@ -776,7 +776,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.14.17 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.14.17 PM.jpeg"); 
 
 }, 108000)
 setTimeout(async()=>{ 
@@ -784,7 +784,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 1.14.18 PM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 1.14.18 PM (1).jpeg"); 
 
 }, 112000)
 setTimeout(async()=>{ 
@@ -1269,7 +1269,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.37.27 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.37.27 AM.jpeg"); 
 
 }, 188000)
 setTimeout(async()=>{ 
@@ -1277,7 +1277,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.37.28 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.37.28 AM.jpeg"); 
 
 }, 192000)
 setTimeout(async()=>{ 
@@ -1780,7 +1780,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM (1).jpeg"); 
 
 }, 268000)
 setTimeout(async()=>{ 
@@ -1788,7 +1788,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.32.03 AM.jpeg"); 
 
 }, 272000)
 setTimeout(async()=>{ 
@@ -2288,7 +2288,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM (1).jpeg"); 
 
 }, 348000)
 setTimeout(async()=>{ 
@@ -2296,7 +2296,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.30.25 AM.jpeg"); 
 
 }, 352000)
 setTimeout(async()=>{ 
@@ -2796,7 +2796,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.26.29 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.26.29 AM (1).jpeg"); 
 
 }, 428000)
 setTimeout(async()=>{ 
@@ -2804,7 +2804,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-10-20 at 11.26.30 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-10-20 at 11.26.30 AM.jpeg"); 
 
 }, 432000)
 setTimeout(async()=>{ 
@@ -3302,7 +3302,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 9.48.41 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 9.48.41 AM.jpeg"); 
 
 }, 508000)
 setTimeout(async()=>{ 
@@ -3310,7 +3310,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 9.48.46 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 9.48.46 AM.jpeg"); 
 
 }, 512000)
 setTimeout(async()=>{ 
@@ -3794,7 +3794,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.47.10 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.47.10 AM.jpeg"); 
 
 }, 588000)
 setTimeout(async()=>{ 
@@ -3802,7 +3802,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.47.11 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.47.11 AM.jpeg"); 
 
 }, 592000)
 setTimeout(async()=>{ 
@@ -4288,7 +4288,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-06 at 10.09.42 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-06 at 10.09.42 AM.jpeg"); 
 
 }, 668000)
 setTimeout(async()=>{ 
@@ -4296,7 +4296,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-06 at 10.09.45 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-06 at 10.09.45 AM.jpeg"); 
 
 }, 672000)
 setTimeout(async()=>{ 
@@ -4795,7 +4795,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.40.09 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.40.09 AM.jpeg"); 
 
 }, 748000)
 setTimeout(async()=>{ 
@@ -4803,7 +4803,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-20 at 10.40.08 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-20 at 10.40.08 AM.jpeg"); 
 
 }, 752000)
 setTimeout(async()=>{ 
@@ -5286,7 +5286,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-28 at 2.43.44 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-28 at 2.43.44 PM.jpeg"); 
 
 }, 828000)
 setTimeout(async()=>{ 
@@ -5294,7 +5294,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-28 at 2.43.45 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-28 at 2.43.45 PM.jpeg"); 
 
 }, 832000)
 setTimeout(async()=>{ 
@@ -5777,7 +5777,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 3.01.55 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 3.01.55 PM.jpeg"); 
 
 }, 908000)
 setTimeout(async()=>{ 
@@ -5785,7 +5785,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 3.01.53 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 3.01.53 PM.jpeg"); 
 
 }, 912000)
 setTimeout(async()=>{ 
@@ -6285,7 +6285,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.40.57 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.40.57 AM.jpeg"); 
 
 }, 988000)
 setTimeout(async()=>{ 
@@ -6293,7 +6293,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.40.58 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.40.58 AM.jpeg"); 
 
 }, 992000)
 setTimeout(async()=>{ 
@@ -6796,7 +6796,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.09.03 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.09.03 PM.jpeg"); 
 
 }, 1068000)
 setTimeout(async()=>{ 
@@ -6804,7 +6804,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.09.04 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.09.04 PM.jpeg"); 
 
 }, 1072000)
 setTimeout(async()=>{ 
@@ -7290,7 +7290,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.59 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.59 PM.jpeg"); 
 
 }, 1148000)
 setTimeout(async()=>{ 
@@ -7298,7 +7298,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.09.00 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.09.00 PM.jpeg"); 
 
 }, 1152000)
 setTimeout(async()=>{ 
@@ -7783,7 +7783,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
 
 }, 1228000)
 setTimeout(async()=>{ 
@@ -7791,7 +7791,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
 
 }, 1232000)
 setTimeout(async()=>{ 
@@ -8294,7 +8294,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.38 PM.jpeg"); 
 
 }, 1228000)
 setTimeout(async()=>{ 
@@ -8302,7 +8302,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-22 at 12.08.58 PM.jpeg"); 
 
 }, 1232000)
 setTimeout(async()=>{ 
@@ -8803,7 +8803,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM (1).jpeg"); 
 
 }, 1308000)
 setTimeout(async()=>{ 
@@ -8811,7 +8811,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-11-20 at 10.16.45 AM.jpeg"); 
 
 }, 1312000)
 setTimeout(async()=>{ 
@@ -9312,7 +9312,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM (1).jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM (1).jpeg"); 
 
 }, 1388000)
 setTimeout(async()=>{ 
@@ -9320,7 +9320,7 @@ setTimeout(async()=>{
 
 
 
-      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Users/PUBLICADOR_COROTOS1/Desktop/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM.jpeg"); 
+      return driver.findElement(By.xpath("//input[@type='file']")).sendKeys("/home/rey/Desktop/webpaa1063-linux-2/anuncio/WhatsApp Image 2018-12-27 at 10.42.13 AM.jpeg"); 
 
 }, 1392000)
 setTimeout(async()=>{ 
